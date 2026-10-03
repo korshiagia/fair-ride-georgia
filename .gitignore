@@ -1,0 +1,29 @@
+# Local credentials and restricted participant evidence
+.env
+.env.*
+!.env.example
+!.env.*.example
+**/secrets/
+**/private-evidence/
+**/raw-evidence/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Future build, package and local tool output
+node_modules/
+.next/
+.dart_tool/
+.flutter-plugins-dependencies
+.gradle/
+build/
+coverage/
+*.log
+.DS_Store
+Thumbs.db
+
+# Local Terraform state and provider downloads
+.terraform/
+*.tfstate
+*.tfstate.*

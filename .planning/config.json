@@ -1,0 +1,22 @@
+{
+  "mode": "interactive",
+  "granularity": "fine",
+  "runtime": "codex",
+  "response_language": "Georgian",
+  "phase_id_convention": "sequential",
+  "parallelization": false,
+  "planning": { "commit_docs": false },
+  "workflow": {
+    "research": true,
+    "ai_integration_phase": true,
+    "plan_check": true,
+    "verifier": true,
+    "auto_advance": false,
+    "text_mode": true,
+    "context_coverage_gate": true,
+    "nyquist_validation": true,
+    "security_enforcement": true,
+    "security_asvs_level": 2,
+    "security_block_on": "high"
+  }
+}
