@@ -1,0 +1,90 @@
+{
+  "modelVersion": "1.0.0-analysis",
+  "provenance": {
+    "status": "assumed",
+    "owner": "Finance reviewer role; named reviewer pending",
+    "source": "BUSINESS-MODEL.md dated 2026-10-03; Task 1 explicit stress assumptions dated 2026-10-04",
+    "accessDate": "2026-10-04 Asia/Tbilisi",
+    "scope": "Synthetic normal/stress comparison for all five cities; no measured city difference, no forecast",
+    "measurementPeriod": "none; actual field records = 0",
+    "legalProviderDependencies": "01-02; principal/agent, tax, PSP, funds flow and commercial rates unresolved",
+    "defaults": "Every scalar below is assumed, including explicit zeros; zero is not evidence of no cost",
+    "rounding": "Exact rational expected costs; output 10 decimals, half away from zero. Actual transactions need separately approved cent rounding.",
+    "omissions": "Authorization/refund/payout fee allocated through cardExtraFee (currently assumed 0); cashCollectionCost assumed 0. Unknown real fees, insurance, taxes, PSP collateral/corporate credit, capex and staffing ramp require revision before decisions.",
+    "driverCosts": "All working distance included once in fuel and maintenance; costs held constant under utilization/demand stress for conservative sensitivity; no guarantee of net income.",
+    "acquisition": "Driver and passenger ride allocations are disjoint for this synthetic cohort; monthly spend 1000+4000 GEL per city = 25000 total. Not measured CAC. 3-month horizon; no invented 90-day retention observation.",
+    "month": "One synthetic month plus uniform 12/15-month schedules, not activation. Each horizon starts with assumed 4950000 GEL, not committed capital; the separately calculated 6000000 GEL envelope is not injected as cash. Total 600000 research/acquisition reserve is spread over the horizon, split equally; CAC stress increases only acquisition. Fixed vendor baseline excludes incremental ride infrastructure. 250000 break-even oracle differs from 280000 bottom-up full fixed baseline. Shared fixed costs counted once across five cities.",
+    "cash": "Collection/default fractions apply to new gross commission/service receivables; overdue remainder persists; no netting rights inferred. Card settlement fraction concerns retained platform fees after driver passthrough. Provider outage assumes no receipts for current card fees and 50% activity; already completed obligations remain."
+  },
+  "baseline": {
+    "ride": {
+      "fare": "12.00", "commissionRate": "0.15", "cardShare": "0.60", "pspRate": "0.02",
+      "cardExtraFee": "0", "cashCollectionCost": "0", "serviceRevenue": "0",
+      "costs": [
+        {"boundary":"map","amount":"0.08","status":"assumed","source":"BUSINESS-MODEL.md ride sensitivity"},
+        {"boundary":"communications","amount":"0.03","status":"assumed","source":"BUSINESS-MODEL.md ride sensitivity"},
+        {"boundary":"infra_incremental","amount":"0.05","status":"assumed","source":"BUSINESS-MODEL.md incremental cost; excludes fixed vendor/cloud baseline"},
+        {"boundary":"support_incremental","amount":"0.15","status":"assumed","source":"BUSINESS-MODEL.md handling cost; excludes fixed staffed seats"},
+        {"boundary":"fraud_refund","amount":"0.06","status":"assumed","source":"BUSINESS-MODEL.md unrecovered loss; excludes refunded driver fare passthrough"},
+        {"boundary":"routine_incentives","amount":"0.30","status":"assumed","source":"BUSINESS-MODEL.md; excludes separate acquisition cohort spend"},
+        {"boundary":"introductory_incentives","amount":"0","status":"assumed","source":"explicit zero sensitivity; future subsidies must have disjoint CAC allocation"}
+      ]
+    },
+    "driver": {
+      "eligibleFares":"6000","commissionRate":"0.15","tips":"0","incentives":"0","onlineHours":"200",
+      "costs":[
+        {"boundary":"fuel","amount":"1000","status":"assumed","source":"Task 1 synthetic decomposition of BUSINESS-MODEL.md C=2200; includes paid/pickup/repositioning/return"},
+        {"boundary":"maintenance","amount":"300","status":"assumed","source":"Task 1 synthetic decomposition; all working distance"},
+        {"boundary":"depreciation","amount":"600","status":"assumed","source":"Task 1 synthetic owner-vehicle allocation; no lease or loan principal added"},
+        {"boundary":"insurance","amount":"100","status":"assumed","source":"Task 1 synthetic allocation; no insurer quotation"},
+        {"boundary":"driver_tax_other","amount":"200","status":"assumed","source":"Task 1 synthetic allocation; tax applicability unreviewed"}
+      ]
+    },
+    "cash":{"collectionFraction":"1","defaultFraction":"0","cardSettlementFraction":"1"},
+    "tax":{"mode":"unresolved_no_tax","rate":"0"},
+    "acquisition":[
+      {"kind":"retained_active_driver","spend":"1000","activeUsers":10,"ridesPerUserByMonth":["20","15","10"],"retentionCostPerUserByMonth":["0","0","0"]},
+      {"kind":"first_paid_rider","spend":"4000","activeUsers":100,"ridesPerUserByMonth":["4","3","2"],"retentionCostPerUserByMonth":["0","0","0"]}
+    ]
+  },
+  "cities":[
+    {"city":"Zugdidi","status":"assumed","source":"Uniform synthetic comparison, no city forecast","collected":0,"completedRides":"10000"},
+    {"city":"Kutaisi","status":"assumed","source":"Uniform synthetic comparison, no city forecast","collected":0,"completedRides":"10000"},
+    {"city":"Batumi","status":"assumed","source":"Uniform synthetic comparison; single season cannot validate full year","collected":0,"completedRides":"10000"},
+    {"city":"Tbilisi","status":"assumed","source":"Uniform synthetic comparison, no city forecast","collected":0,"completedRides":"10000"},
+    {"city":"Rustavi","status":"assumed","source":"Uniform synthetic comparison, no city forecast","collected":0,"completedRides":"10000"}
+  ],
+  "scenarios":[
+    {"name":"normal_assumed","modifiers":{"fareFactor":"1","utilizationFactor":"1","cacFactor":"1","pspFactor":"1","incentiveFactor":"1","demandFactor":"1","cardSettlementFraction":"1"}},
+    {"name":"fare_minus_20_percent","modifiers":{"fareFactor":"0.8","utilizationFactor":"1","cacFactor":"1","pspFactor":"1","incentiveFactor":"1","demandFactor":"1","cardSettlementFraction":"1"}},
+    {"name":"utilization_minus_30_percent","modifiers":{"fareFactor":"1","utilizationFactor":"0.7","cacFactor":"1","pspFactor":"1","incentiveFactor":"1","demandFactor":"1","cardSettlementFraction":"1"}},
+    {"name":"acquisition_plus_50_percent","modifiers":{"fareFactor":"1","utilizationFactor":"1","cacFactor":"1.5","pspFactor":"1","incentiveFactor":"1","demandFactor":"1","cardSettlementFraction":"1"}},
+    {"name":"psp_plus_50_percent","modifiers":{"fareFactor":"1","utilizationFactor":"1","cacFactor":"1","pspFactor":"1.5","incentiveFactor":"1","demandFactor":"1","cardSettlementFraction":"1"}},
+    {"name":"incentives_double","modifiers":{"fareFactor":"1","utilizationFactor":"1","cacFactor":"1","pspFactor":"1","incentiveFactor":"2","demandFactor":"1","cardSettlementFraction":"1"}},
+    {"name":"seasonal_trough_assumed_50_percent","modifiers":{"fareFactor":"1","utilizationFactor":"1","cacFactor":"1","pspFactor":"1","incentiveFactor":"1","demandFactor":"0.5","cardSettlementFraction":"1"}},
+    {"name":"provider_outage_assumed_half_activity_unsettled_cards","modifiers":{"fareFactor":"1","utilizationFactor":"1","cacFactor":"1","pspFactor":"1","incentiveFactor":"1","demandFactor":"0.5","cardSettlementFraction":"0"}},
+    {"name":"combined_adverse","modifiers":{"fareFactor":"0.8","utilizationFactor":"0.7","cacFactor":"1.5","pspFactor":"1.5","incentiveFactor":"2","demandFactor":"0.5","cardSettlementFraction":"0"}},
+    {"name":"cash_collection_default_stress","modifiers":{"fareFactor":"1","utilizationFactor":"1","cacFactor":"1","pspFactor":"1","incentiveFactor":"1","demandFactor":"1","cardSettlementFraction":"1","cashCollectionFraction":"0.5","cashDefaultFraction":"0.1"}}
+  ],
+  "taxAlternatives":[
+    {"mode":"unresolved_no_tax","rate":"0"},
+    {"mode":"agent_commission_inclusive","rate":"0.18"},
+    {"mode":"agent_commission_exclusive","rate":"0.18"},
+    {"mode":"principal_fare_inclusive","rate":"0.18"}
+  ],
+  "monthly":{
+    "fixedCosts":[
+      {"boundary":"engineering_salaries","amount":"180000","status":"assumed","source":"BUSINESS-MODEL.md 15 FTE x 12000 GEL; not salary benchmark"},
+      {"boundary":"specialist_contracts","amount":"20000","status":"assumed","source":"BUSINESS-MODEL.md legal/finance/security"},
+      {"boundary":"staffed_operations","amount":"60000","status":"assumed","source":"BUSINESS-MODEL.md full staffed baseline; not roster evidence"},
+      {"boundary":"fixed_vendor_tools","amount":"20000","status":"assumed","source":"BUSINESS-MODEL.md fixed baseline; excludes incremental rides"}
+    ],
+    "acquisitionSpend":"25000","researchSpend":"25000","capex":"0","funding":"0","taxRemittance":"0",
+    "priorCashCollection":"0","priorCashWriteoff":"0","priorCardCollection":"0",
+    "reserveDeposit":"0","reserveRelease":"0","otherCashCost":"0"
+  },
+  "funding":{
+    "opening":{"cash":"4950000","cashReceivables":"0","cardReceivables":"0","taxPayable":"0","reserve":"0"},
+    "researchAcquisitionReserve":"600000","contingencyRate":"0.25"
+  }
+}
