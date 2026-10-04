@@ -1,10 +1,12 @@
 # Five-city and service policy schema
 
-**DRAFT / UNREVIEWED — v0.1. Prepared 2026-10-04, Asia/Tbilisi. Source cutoff/access: 2026-10-04.**
+**DRAFT / UNREVIEWED — v0.2. Revised 2026-10-05, Asia/Tbilisi. Source cutoff/access: 2026-10-04.**
 
 Requirements supported, not completed: PRD-01, BIZ-01, VND-01. Decisions: D-01, D-02, D-03, D-04, D-05, D-06. Owner role: Policy / Georgian counsel / city operations; named accountable reviewer not appointed. All application/device/PSP/field/security scenarios: **NOT RUN**. No implementation, provider access, live funds, professional acceptance, M0 approval or city activation is established.
 
-Evidence classes: PUBLIC-PRIMARY / DOCUMENTED_PUBLIC describe only the dated publisher statement; SELECTED-DIRECTION is a proposed design; UNVALIDATED-HYPOTHESIS includes every numerical policy/limit/retention choice; PROFESSIONAL, MERCHANT-TERMS and AUTHORIZED-FIELD are missing actual gates. Original [01-01](../../../.planning/phases/01-validation-contracts/01-01-CHECKPOINT.md) and [01-02](../../../.planning/phases/01-validation-contracts/01-02-CHECKPOINT.md) actual checkpoints remain open. [01-04 evidence](../../../research/PUBLIC-EVIDENCE-UPDATE-2026-10-04.md) is the bounded public baseline. Future independent 01-06 desk review does not replace canonical 01-03 or M0 plus later implementation instruction.
+Evidence classes: PUBLIC-PRIMARY / DOCUMENTED_PUBLIC describe only the dated publisher statement; SELECTED-DIRECTION is a proposed design; UNVALIDATED-HYPOTHESIS includes every numerical policy/limit/retention choice; PROFESSIONAL, MERCHANT-TERMS and AUTHORIZED-FIELD are missing actual gates. Original [01-01](../../../.planning/phases/01-validation-contracts/01-01-CHECKPOINT.md) and [01-02](../../../.planning/phases/01-validation-contracts/01-02-CHECKPOINT.md) actual checkpoints remain open. [01-04 evidence](../../../research/PUBLIC-EVIDENCE-UPDATE-2026-10-04.md) is the bounded public baseline. The independent 01-06 desk review and subsequent re-review do not replace canonical 01-03 or M0 plus later implementation instruction.
+
+Revision v0.2 reconciles the bounded written recommendations [F-01–12](../../reviews/drafts/contract-desk-review.md#f-01); original IDs are retained. Written corrections await independent re-review and do not close actual evidence gates.
 
 ## Schema and fail-closed resolver — selected design, not live configuration
 
@@ -69,6 +71,18 @@ No numerical tariff, wait/grace/cap, offer/PIN expiry, response retention, calen
 
 All policy scenarios actual NOT RUN; no professional/operator acceptance. BIZ-02/BIZ-03/BIZ-04/VND-01 unclassified edges remain flagged unresolved at original gates. All D-01–06 and the four plan prohibitions are retained: no state collapse, jurisdiction inheritance, GPS/PIN safety shortcut, or assumed evidence presented as reviewed/observed.
 
+
+
+<a id="policy-v02-interactions"></a>
+## Versioned lifecycle, funding and beneficiary fields — v0.2
+
+[POL-SCHEMA](#pol-schema) carries independent cancellation_lifecycle_rule and optional_fee_rule versions. Missing arrival quality/qualifying notice/grace/fee policy/funding means fee ZERO or REVIEW_PENDING without debit; valid prestart cancel still releases its claims under [terminal cleanup](trip-transition-catalogue.md#terminal-cleanup). Terminal reason/source/version/generation remain guarded. Fee-free failed authorization cleanup never depends on successful settlement or PSP VOID; UNKNOWN VOID is independent.
+
+Amendment policy declares consent/fare/currency rule, approved funding coverage, actual provider incremental/replacement capability evidence, old/new hold allocation and total capture cap, corporate delta reservation and refusal/UNKNOWN resolution. Absent accepted capability gives AMENDMENT_FUNDING_HOLD before extra paid service; [funding choreography](trip-transition-catalogue.md#amendment-funding) preserves original accepted terms. Public documentation does not prove company merchant capability.
+
+Beneficiary policy requires service-specific agreement/version/effective interval, approved economic earning event and midtrip-transfer allocation. Assignment candidate agreement binds earnings only if the reviewed earning rule selects it. Missing/conflicting rule gives ACCOUNTING_HOLD for entitlement/payout while trip terminal release proceeds. [Economic precedence](trip-transition-catalogue.md#beneficiary-precedence) prevents current fleet access from rewriting historical payables; lawful corrections append audited balanced effects.
+
+[POL-SCHEDULED](#pol-scheduled), airport overlays and directed corridors require trigger_generation, due/check-in/expiry window, approved automatic payment authority, quote-validity/reconfirmation/amendment rule, actual passenger claim and booking→trip dedupe. [Live handoff](trip-transition-catalogue.md#scheduled-handoff) rechecks current city/company/driver/vehicle/airport/directional rights, corporate membership/credit and fare/payment at trigger. Active passenger, expired quote, UNKNOWN payment or removed spend grant means owned HOLD/reconfirm/reschedule, never inferred no-show fee. Future commitment is not live assignment. Required fields do not enable any five city, three airport, scheduled or twenty directional capabilities. Earning/licence/merchant/guarantee rules remain external gates; numeric limits remain hypotheses.
 
 ## Reverse policy threat index
 
