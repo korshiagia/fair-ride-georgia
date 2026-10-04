@@ -54,6 +54,7 @@ National wider self-governing-city taxi framework is a **PUBLIC-PRIMARY fact** e
 Zugdidi has no local airport capability claimed. A Zugdidi-origin journey to any of the three airports must join POL-ZUG, its exact directional corridor/traversed permissions, and the appropriate POL-APT-* **destination/dropoff or pickup** subscope. Rustavi→Tbilisi airport similarly requires POL-RUS plus exact traversed jurisdictions/airport, not just POL-TBI. Airport location must not be assumed equal to a named city administrative boundary.
 
 All distinct directed city pairs remain separate candidate entries under POL-CORRIDOR:
+
 - Zugdidi → Kutaisi; Zugdidi → Batumi; Zugdidi → Tbilisi; Zugdidi → Rustavi: each HOLD / DISABLED; reverse route has its own eligibility/economics.
 - Kutaisi → Zugdidi; Kutaisi → Batumi; Kutaisi → Tbilisi; Kutaisi → Rustavi: each HOLD / DISABLED; reverse route has its own eligibility/economics.
 - Batumi → Zugdidi; Batumi → Kutaisi; Batumi → Tbilisi; Batumi → Rustavi: each HOLD / DISABLED; reverse route has its own eligibility/economics.
@@ -67,3 +68,20 @@ All distinct directed city pairs remain separate candidate entries under POL-COR
 No numerical tariff, wait/grace/cap, offer/PIN expiry, response retention, calendar buffer, payout timing or retention is accepted. Baseline 15% commission, arrival75m/30m/3 samples/15s and freshness/retention values are UNVALIDATED-HYPOTHESES under product/location/security/privacy/finance/counsel review. Missing input disables its dependent behavior; do not substitute national average, competitor fare, airport website fee or another city's policy.
 
 All policy scenarios actual NOT RUN; no professional/operator acceptance. BIZ-02/BIZ-03/BIZ-04/VND-01 unclassified edges remain flagged unresolved at original gates. All D-01–06 and the four plan prohibitions are retained: no state collapse, jurisdiction inheritance, GPS/PIN safety shortcut, or assumed evidence presented as reviewed/observed.
+
+
+## Reverse policy threat index
+
+| Policy ID | Mapped negative threats |
+|---|---|
+| [POL-SCHEMA](#pol-schema) | [TH-20](../../security/drafts/threat-model.md#th-20) / [TH-23](../../security/drafts/threat-model.md#th-23); source/pickup/quote also [TH-02](../../security/drafts/threat-model.md#th-02) / [TH-03](../../security/drafts/threat-model.md#th-03) |
+| [POL-ZUG](#pol-zug) | [TH-20](../../security/drafts/threat-model.md#th-20) / [TH-23](../../security/drafts/threat-model.md#th-23); source/pickup/quote also [TH-02](../../security/drafts/threat-model.md#th-02) / [TH-03](../../security/drafts/threat-model.md#th-03) |
+| [POL-KUT](#pol-kut) | [TH-20](../../security/drafts/threat-model.md#th-20) / [TH-23](../../security/drafts/threat-model.md#th-23); source/pickup/quote also [TH-02](../../security/drafts/threat-model.md#th-02) / [TH-03](../../security/drafts/threat-model.md#th-03) |
+| [POL-BAT](#pol-bat) | [TH-20](../../security/drafts/threat-model.md#th-20) / [TH-23](../../security/drafts/threat-model.md#th-23); source/pickup/quote also [TH-02](../../security/drafts/threat-model.md#th-02) / [TH-03](../../security/drafts/threat-model.md#th-03) |
+| [POL-TBI](#pol-tbi) | [TH-20](../../security/drafts/threat-model.md#th-20) / [TH-23](../../security/drafts/threat-model.md#th-23); source/pickup/quote also [TH-02](../../security/drafts/threat-model.md#th-02) / [TH-03](../../security/drafts/threat-model.md#th-03) |
+| [POL-RUS](#pol-rus) | [TH-20](../../security/drafts/threat-model.md#th-20) / [TH-23](../../security/drafts/threat-model.md#th-23); source/pickup/quote also [TH-02](../../security/drafts/threat-model.md#th-02) / [TH-03](../../security/drafts/threat-model.md#th-03) |
+| [POL-APT-KUT](#pol-apt-kut) | [TH-20](../../security/drafts/threat-model.md#th-20) / [TH-23](../../security/drafts/threat-model.md#th-23); source/pickup/quote also [TH-02](../../security/drafts/threat-model.md#th-02) / [TH-03](../../security/drafts/threat-model.md#th-03) |
+| [POL-APT-BAT](#pol-apt-bat) | [TH-20](../../security/drafts/threat-model.md#th-20) / [TH-23](../../security/drafts/threat-model.md#th-23); source/pickup/quote also [TH-02](../../security/drafts/threat-model.md#th-02) / [TH-03](../../security/drafts/threat-model.md#th-03) |
+| [POL-APT-TBI](#pol-apt-tbi) | [TH-20](../../security/drafts/threat-model.md#th-20) / [TH-23](../../security/drafts/threat-model.md#th-23); source/pickup/quote also [TH-02](../../security/drafts/threat-model.md#th-02) / [TH-03](../../security/drafts/threat-model.md#th-03) |
+| [POL-SCHEDULED](#pol-scheduled) | [TH-20](../../security/drafts/threat-model.md#th-20) / [TH-23](../../security/drafts/threat-model.md#th-23); source/pickup/quote also [TH-02](../../security/drafts/threat-model.md#th-02) / [TH-03](../../security/drafts/threat-model.md#th-03) |
+| [POL-CORRIDOR](#pol-corridor) | [TH-20](../../security/drafts/threat-model.md#th-20) / [TH-23](../../security/drafts/threat-model.md#th-23); source/pickup/quote also [TH-02](../../security/drafts/threat-model.md#th-02) / [TH-03](../../security/drafts/threat-model.md#th-03) |

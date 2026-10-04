@@ -60,3 +60,19 @@ Restore: isolate snapshot from normal users/jobs; recover authoritative finance/
 DATA-08/09 inherit [POL-SCHEMA](../../contracts/drafts/city-policy-schema.md#pol-schema), [POL-SCHEDULED](../../contracts/drafts/city-policy-schema.md#pol-scheduled) and [POL-CORRIDOR](../../contracts/drafts/city-policy-schema.md#pol-corridor); the policy document returns to these categories. [Threat register](threat-model.md) maps every category and all surfaces to negative cases.
 
 Current law PUBLIC-PRIMARY provenance: L5 base2023-06-14, main commencement2024-03-01 and selected2024-06-01; L6 adopted2026-06-10/effective2026-06-15 narrowly delays procurement Art6(1)(ს) to2030-01-01; L7 supervisory transfer effective2026-03-02. [Legal report](../../../research/PUBLIC-LEGAL-2026-10-04.md) contains exact versions/access limits. These are source-backed facts from the prior review, **not our lawful-basis/DPIA/DPO/transfer sign-off**. Original actual research protocol and company counsel/bank/map gates remain unresolved. No real personal data collection, external source refresh or processor configuration occurred here.
+
+
+## Reverse category threat index
+
+| Data ID | Mapped threat IDs; every surface inherits the common controls |
+|---|---|
+| [DATA-01](#data-01) | [TH-02](threat-model.md#th-02), [TH-03](threat-model.md#th-03), [TH-11](threat-model.md#th-11) |
+| [DATA-02](#data-02) | [TH-01](threat-model.md#th-01), [TH-21](threat-model.md#th-21) |
+| [DATA-03](#data-03) | [TH-06](threat-model.md#th-06), [TH-07](threat-model.md#th-07), [TH-08](threat-model.md#th-08), [TH-09](threat-model.md#th-09), [TH-12](threat-model.md#th-12), [TH-18](threat-model.md#th-18), [TH-25](threat-model.md#th-25), [TH-26](threat-model.md#th-26) |
+| [DATA-04](#data-04) | [TH-04](threat-model.md#th-04), [TH-05](threat-model.md#th-05), [TH-13](threat-model.md#th-13), [TH-14](threat-model.md#th-14), [TH-15](threat-model.md#th-15), [TH-17](threat-model.md#th-17) |
+| [DATA-05](#data-05) | [TH-10](threat-model.md#th-10) |
+| [DATA-06](#data-06) | [TH-16](threat-model.md#th-16), [TH-19](threat-model.md#th-19) |
+| [DATA-07](#data-07) | [TH-22](threat-model.md#th-22) |
+| [DATA-08](#data-08) | [TH-20](threat-model.md#th-20) |
+| [DATA-09](#data-09) | [TH-23](threat-model.md#th-23), [TH-27](threat-model.md#th-27) |
+| [DATA-10](#data-10) | [TH-24](threat-model.md#th-24) |

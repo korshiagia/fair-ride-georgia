@@ -76,3 +76,37 @@ TR-17 uses original payment refund cap (captures minus verified prior refunds an
 ## Pending evidence
 
 All row acceptance scenarios NOT RUN. Actual merchant/key finality, licensed route evidence, city/airport eligibility, lawful retention, financial issuer/posting/credit/netting model, safety staffing and device thresholds remain OPEN-EXTERNAL / OPEN-ENGINEERING. Numerical targets in the technical baseline are engineering hypotheses requiring named review; they are not selected executable defaults. [Policy gates](city-policy-schema.md), [data categories](../../security/drafts/privacy-data-map.md) and [negative threats](../../security/drafts/threat-model.md) constrain future implementation.
+
+
+## Reverse threat index
+
+Stable journey IDs return to their mapped negative threat; threat rows return to these exact anchors. Controls/scenarios remain proposed and NOT RUN.
+
+| TR ID | Threat and acceptance |
+|---|---|
+| [TR-01](#tr-01) | [TH-01](../../security/drafts/threat-model.md#th-01) / [AC-01](screen-state-inventory.md#ac-01) |
+| [TR-02](#tr-02) | [TH-02](../../security/drafts/threat-model.md#th-02) / [AC-02](screen-state-inventory.md#ac-02) |
+| [TR-03](#tr-03) | [TH-03](../../security/drafts/threat-model.md#th-03) / [AC-03](screen-state-inventory.md#ac-03) |
+| [TR-04](#tr-04) | [TH-04](../../security/drafts/threat-model.md#th-04) / [AC-04](screen-state-inventory.md#ac-04) |
+| [TR-05](#tr-05) | [TH-05](../../security/drafts/threat-model.md#th-05) / [AC-05](screen-state-inventory.md#ac-05) |
+| [TR-06](#tr-06) | [TH-06](../../security/drafts/threat-model.md#th-06) / [AC-06](screen-state-inventory.md#ac-06) |
+| [TR-07](#tr-07) | [TH-07](../../security/drafts/threat-model.md#th-07) / [AC-07](screen-state-inventory.md#ac-07) |
+| [TR-08](#tr-08) | [TH-08](../../security/drafts/threat-model.md#th-08) / [AC-08](screen-state-inventory.md#ac-08) |
+| [TR-09](#tr-09) | [TH-09](../../security/drafts/threat-model.md#th-09) / [AC-09](screen-state-inventory.md#ac-09) |
+| [TR-10](#tr-10) | [TH-10](../../security/drafts/threat-model.md#th-10) / [AC-10](screen-state-inventory.md#ac-10) |
+| [TR-11](#tr-11) | [TH-11](../../security/drafts/threat-model.md#th-11) / [AC-11](screen-state-inventory.md#ac-11) |
+| [TR-12](#tr-12) | [TH-12](../../security/drafts/threat-model.md#th-12) / [AC-12](screen-state-inventory.md#ac-12) |
+| [TR-13](#tr-13) | [TH-13](../../security/drafts/threat-model.md#th-13) / [AC-13](screen-state-inventory.md#ac-13) |
+| [TR-14](#tr-14) | [TH-14](../../security/drafts/threat-model.md#th-14) / [AC-14](screen-state-inventory.md#ac-14) |
+| [TR-15](#tr-15) | [TH-15](../../security/drafts/threat-model.md#th-15) / [AC-15](screen-state-inventory.md#ac-15) |
+| [TR-16](#tr-16) | [TH-16](../../security/drafts/threat-model.md#th-16) / [AC-16](screen-state-inventory.md#ac-16) |
+| [TR-17](#tr-17) | [TH-17](../../security/drafts/threat-model.md#th-17) / [AC-17](screen-state-inventory.md#ac-17) |
+| [TR-18](#tr-18) | [TH-18](../../security/drafts/threat-model.md#th-18) / [AC-18](screen-state-inventory.md#ac-18) |
+| [TR-19](#tr-19) | [TH-19](../../security/drafts/threat-model.md#th-19) / [AC-19](screen-state-inventory.md#ac-19) |
+| [TR-20](#tr-20) | [TH-20](../../security/drafts/threat-model.md#th-20) / [AC-20](screen-state-inventory.md#ac-20) |
+| [TR-21](#tr-21) | [TH-21](../../security/drafts/threat-model.md#th-21) / [AC-21](screen-state-inventory.md#ac-21) |
+| [TR-22](#tr-22) | [TH-22](../../security/drafts/threat-model.md#th-22) / [AC-22](screen-state-inventory.md#ac-22) |
+| [TR-23](#tr-23) | [TH-23](../../security/drafts/threat-model.md#th-23) / [AC-23](screen-state-inventory.md#ac-23) |
+| [TR-24](#tr-24) | [TH-24](../../security/drafts/threat-model.md#th-24) / [AC-24](screen-state-inventory.md#ac-24) |
+| [TR-25](#tr-25) | [TH-25](../../security/drafts/threat-model.md#th-25) / [AC-25](screen-state-inventory.md#ac-25) |
+| [TR-26](#tr-26) | [TH-26](../../security/drafts/threat-model.md#th-26) / [AC-26](screen-state-inventory.md#ac-26) |

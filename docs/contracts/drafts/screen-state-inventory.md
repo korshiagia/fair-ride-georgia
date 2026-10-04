@@ -89,3 +89,37 @@ Fleet uses SCR-21 + SCR-14 with effective contract and beneficiary snapshot; cor
 D-01: no permission inherited from another city, airport, reverse corridor or map presence. D-02: no NOT RUN or public product statement becomes observed/reviewed. D-03: 15% commission and all operational/timing figures remain hypotheses; no income promise. D-04: issuer/tax/custody/refund funding are actual professional/bank gates. D-05: no collapsed state, GPS penalty shortcut, PIN/arrival/device safety guarantee, heartbeat reassignment or silent fare amendment. D-06: draft preparation does not authorize M0, spending, provider use or implementation.
 
 Economics BIZ-02, tax/legal BIZ-03, real research BIZ-04 and company VND-01 edge items remain flagged unresolved at their original actual checkpoints. Adjacency (city/airport/tenant/lifecycle), empty-input failure and ordering are explicitly contracted in TR-04/07/09/18/20/25 and the policy schema; no unresolved probe item is dropped.
+
+
+## Reverse threat index
+
+Stable journey IDs return to their mapped negative threat; threat rows return to these exact anchors. Controls/scenarios remain proposed and NOT RUN.
+
+| SCR ID | Threat and acceptance |
+|---|---|
+| [SCR-01](#scr-01) | [TH-01](../../security/drafts/threat-model.md#th-01) / [AC-01](screen-state-inventory.md#ac-01) |
+| [SCR-02](#scr-02) | [TH-02](../../security/drafts/threat-model.md#th-02) / [AC-02](screen-state-inventory.md#ac-02) |
+| [SCR-03](#scr-03) | [TH-03](../../security/drafts/threat-model.md#th-03) / [AC-03](screen-state-inventory.md#ac-03) |
+| [SCR-04](#scr-04) | [TH-04](../../security/drafts/threat-model.md#th-04) / [AC-04](screen-state-inventory.md#ac-04) |
+| [SCR-05](#scr-05) | [TH-05](../../security/drafts/threat-model.md#th-05) / [AC-05](screen-state-inventory.md#ac-05) |
+| [SCR-06](#scr-06) | [TH-06](../../security/drafts/threat-model.md#th-06) / [AC-06](screen-state-inventory.md#ac-06) |
+| [SCR-07](#scr-07) | [TH-07](../../security/drafts/threat-model.md#th-07) / [AC-07](screen-state-inventory.md#ac-07) |
+| [SCR-08](#scr-08) | [TH-08](../../security/drafts/threat-model.md#th-08) / [AC-08](screen-state-inventory.md#ac-08) |
+| [SCR-09](#scr-09) | [TH-09](../../security/drafts/threat-model.md#th-09) / [AC-09](screen-state-inventory.md#ac-09) |
+| [SCR-10](#scr-10) | [TH-10](../../security/drafts/threat-model.md#th-10) / [AC-10](screen-state-inventory.md#ac-10) |
+| [SCR-11](#scr-11) | [TH-11](../../security/drafts/threat-model.md#th-11) / [AC-11](screen-state-inventory.md#ac-11) |
+| [SCR-12](#scr-12) | [TH-12](../../security/drafts/threat-model.md#th-12) / [AC-12](screen-state-inventory.md#ac-12) |
+| [SCR-13](#scr-13) | [TH-13](../../security/drafts/threat-model.md#th-13) / [AC-13](screen-state-inventory.md#ac-13) |
+| [SCR-14](#scr-14) | [TH-14](../../security/drafts/threat-model.md#th-14) / [AC-14](screen-state-inventory.md#ac-14) |
+| [SCR-15](#scr-15) | [TH-15](../../security/drafts/threat-model.md#th-15) / [AC-15](screen-state-inventory.md#ac-15) |
+| [SCR-16](#scr-16) | [TH-16](../../security/drafts/threat-model.md#th-16) / [AC-16](screen-state-inventory.md#ac-16) |
+| [SCR-17](#scr-17) | [TH-17](../../security/drafts/threat-model.md#th-17) / [AC-17](screen-state-inventory.md#ac-17) |
+| [SCR-18](#scr-18) | [TH-18](../../security/drafts/threat-model.md#th-18) / [AC-18](screen-state-inventory.md#ac-18) |
+| [SCR-19](#scr-19) | [TH-19](../../security/drafts/threat-model.md#th-19) / [AC-19](screen-state-inventory.md#ac-19) |
+| [SCR-20](#scr-20) | [TH-20](../../security/drafts/threat-model.md#th-20) / [AC-20](screen-state-inventory.md#ac-20) |
+| [SCR-21](#scr-21) | [TH-21](../../security/drafts/threat-model.md#th-21) / [AC-21](screen-state-inventory.md#ac-21) |
+| [SCR-22](#scr-22) | [TH-22](../../security/drafts/threat-model.md#th-22) / [AC-22](screen-state-inventory.md#ac-22) |
+| [SCR-23](#scr-23) | [TH-23](../../security/drafts/threat-model.md#th-23) / [AC-23](screen-state-inventory.md#ac-23) |
+| [SCR-24](#scr-24) | [TH-24](../../security/drafts/threat-model.md#th-24) / [AC-24](screen-state-inventory.md#ac-24) |
+| [SCR-25](#scr-25) | [TH-25](../../security/drafts/threat-model.md#th-25) / [AC-25](screen-state-inventory.md#ac-25) |
+| [SCR-26](#scr-26) | [TH-26](../../security/drafts/threat-model.md#th-26) / [AC-26](screen-state-inventory.md#ac-26) |

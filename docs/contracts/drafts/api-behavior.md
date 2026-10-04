@@ -77,3 +77,37 @@ Redis reconstructs hot indices/caches from approved authority and fresh session 
 ## Review and gates
 
 References: [ADR-004](../../../adr/004-api-and-realtime-contracts.md), [ADR-003](../../../adr/003-events-and-kafka.md), [provider evidence PP-B/T](../../../research/PUBLIC-PROVIDERS-2026-10-04.md). Source dates/effective versions/access limits stay with those dated ledgers; they do not establish commercial finality. All operation cases NOT RUN. Staff-sensitive finance/policy/break-glass requires MFA/reason/audit and specified independent approval, including queued jobs/exports/objects/caches/socket paths. [Data map](../../security/drafts/privacy-data-map.md) constrains all payloads and responses; [threats](../../security/drafts/threat-model.md) supply negative cases. M0, professional/company licence and later implementation authorization remain open.
+
+
+## Reverse threat index
+
+Stable journey IDs return to their mapped negative threat; threat rows return to these exact anchors. Controls/scenarios remain proposed and NOT RUN.
+
+| OP ID | Threat and acceptance |
+|---|---|
+| [OP-01](#op-01) | [TH-01](../../security/drafts/threat-model.md#th-01) / [AC-01](screen-state-inventory.md#ac-01) |
+| [OP-02](#op-02) | [TH-02](../../security/drafts/threat-model.md#th-02) / [AC-02](screen-state-inventory.md#ac-02) |
+| [OP-03](#op-03) | [TH-03](../../security/drafts/threat-model.md#th-03) / [AC-03](screen-state-inventory.md#ac-03) |
+| [OP-04](#op-04) | [TH-04](../../security/drafts/threat-model.md#th-04) / [AC-04](screen-state-inventory.md#ac-04) |
+| [OP-05](#op-05) | [TH-05](../../security/drafts/threat-model.md#th-05) / [AC-05](screen-state-inventory.md#ac-05) |
+| [OP-06](#op-06) | [TH-06](../../security/drafts/threat-model.md#th-06) / [AC-06](screen-state-inventory.md#ac-06) |
+| [OP-07](#op-07) | [TH-07](../../security/drafts/threat-model.md#th-07) / [AC-07](screen-state-inventory.md#ac-07) |
+| [OP-08](#op-08) | [TH-08](../../security/drafts/threat-model.md#th-08) / [AC-08](screen-state-inventory.md#ac-08) |
+| [OP-09](#op-09) | [TH-09](../../security/drafts/threat-model.md#th-09) / [AC-09](screen-state-inventory.md#ac-09) |
+| [OP-10](#op-10) | [TH-10](../../security/drafts/threat-model.md#th-10) / [AC-10](screen-state-inventory.md#ac-10) |
+| [OP-11](#op-11) | [TH-11](../../security/drafts/threat-model.md#th-11) / [AC-11](screen-state-inventory.md#ac-11) |
+| [OP-12](#op-12) | [TH-12](../../security/drafts/threat-model.md#th-12) / [AC-12](screen-state-inventory.md#ac-12) |
+| [OP-13](#op-13) | [TH-13](../../security/drafts/threat-model.md#th-13) / [AC-13](screen-state-inventory.md#ac-13) |
+| [OP-14](#op-14) | [TH-14](../../security/drafts/threat-model.md#th-14) / [AC-14](screen-state-inventory.md#ac-14) |
+| [OP-15](#op-15) | [TH-15](../../security/drafts/threat-model.md#th-15) / [AC-15](screen-state-inventory.md#ac-15) |
+| [OP-16](#op-16) | [TH-16](../../security/drafts/threat-model.md#th-16) / [AC-16](screen-state-inventory.md#ac-16) |
+| [OP-17](#op-17) | [TH-17](../../security/drafts/threat-model.md#th-17) / [AC-17](screen-state-inventory.md#ac-17) |
+| [OP-18](#op-18) | [TH-18](../../security/drafts/threat-model.md#th-18) / [AC-18](screen-state-inventory.md#ac-18) |
+| [OP-19](#op-19) | [TH-19](../../security/drafts/threat-model.md#th-19) / [AC-19](screen-state-inventory.md#ac-19) |
+| [OP-20](#op-20) | [TH-20](../../security/drafts/threat-model.md#th-20) / [AC-20](screen-state-inventory.md#ac-20) |
+| [OP-21](#op-21) | [TH-21](../../security/drafts/threat-model.md#th-21) / [AC-21](screen-state-inventory.md#ac-21) |
+| [OP-22](#op-22) | [TH-22](../../security/drafts/threat-model.md#th-22) / [AC-22](screen-state-inventory.md#ac-22) |
+| [OP-23](#op-23) | [TH-23](../../security/drafts/threat-model.md#th-23) / [AC-23](screen-state-inventory.md#ac-23) |
+| [OP-24](#op-24) | [TH-24](../../security/drafts/threat-model.md#th-24) / [AC-24](screen-state-inventory.md#ac-24) |
+| [OP-25](#op-25) | [TH-25](../../security/drafts/threat-model.md#th-25) / [AC-25](screen-state-inventory.md#ac-25) |
+| [OP-26](#op-26) | [TH-26](../../security/drafts/threat-model.md#th-26) / [AC-26](screen-state-inventory.md#ac-26) |
