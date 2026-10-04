@@ -1,6 +1,6 @@
 # Market and Regulatory Source Register
 
-**All accesses:** 2026-10-03, Asia/Tbilisi. **Cutoff:** no event after that date is treated as completed. Primary sources are preferred; MR-05 is deliberately retained as a secondary historical lead. Dates below are document/source dates where exposed, not inferred from crawler ages. Live pages with no date require rechecking before contract, launch or public comparison.
+**Baseline accesses:** 2026-10-03, Asia/Tbilisi. **Latest public refresh:** 2026-10-04; see the dated update ledger below and the three linked domain reports. Original MR rows retain their original access context unless explicitly refreshed. No event after the applicable cutoff is treated as completed. Primary sources are preferred; MR-05 is deliberately retained as a secondary historical lead. Dates below are document/source dates where exposed, not inferred from crawler ages. Live pages with no date require rechecking before contract, launch or public comparison.
 
 **Status:** confirmed = source supports the scoped statement; historical = time-bounded; limited = source does not settle the project's applicability; unverified = required project evidence missing. A provider statement verifies what it publishes, not independent market share or service performance. Authoritative Georgian text and final consolidated versions require counsel review where translation/extraction is incomplete.
 
@@ -43,7 +43,29 @@
 | MR-32 | [Mapbox Directions API](https://docs.mapbox.com/api/navigation/directions/) | Mapbox; official documentation | Live v5 documentation; exact update date not recorded | Routing/traffic fallback semantics. Georgia quality and commercial licensing need evaluation. |
 | MR-33 | [OSM tile usage policy](https://operations.osmfoundation.org/policies/tiles/) | OpenStreetMap Foundation; official policy | Live policy; exact revision date not recorded | Public tile restrictions/no SLA; distinct from OSM data licensing and contracted service. |
 
-## Explicitly missing sources and evidence
+## Public refresh ledger — 2026-10-04
+
+The user delegated public source gathering and ordinary planning decisions to the agent. Publicly obtainable statutes, datasets, API/price/terms pages are agent-owned research, not material the user must fetch. The linked reports distinguish source statements, design interpretations, selected directions and actual company/field evidence. New accessible Georgian consolidations supersede older English-translation/access limitations for the specific inspected claims; professional applicability remains separate.
+
+| Update ID / original | Direct primary source | Publication / measurement / effective date | Refreshed scope / limit; access 2026-10-04 |
+|---|---|---|---|
+| UP-C01 / MR-01 | [Bolt commission](https://bolt.eu/en-ge/support/articles/4405297960850/) | Undated live page; publication/effective date not exposed | Advertised 23.6% and named exclusions still published. Provider statement; no negotiated fleet contract or market share. |
+| UP-C02 / MR-02 | [Bolt Georgia driver page](https://bolt.eu/en-ge/driver/) | Measurement 2026-06-01–30; publication date not exposed | GEL 994 weekly country median marketing figure remains; hours, expenses and sampling do not establish net profit. |
+| UP-C03 / MR-14/15 | [GCCA notice](https://gcca.gov.ge/index.php?cat_id=103&m=379), [order/decision PDF](https://gcca.gov.ge/uploads_script/user_rights/tmp/phpaoYtaB.pdf) | Order №04/1548 dated 2026-09-30, effective on signature; notice published 2026-10-02 | Ridetech/Yandex Go finding concerns information and unfair standard terms. PDF identifies Articles 5(1), 10(1), 22(3)(a,b,m), one-month remedy and appeal provisions. No appeal/remedy completion observed. |
+| UP-C04 / MR-13 | [Georgian consumer-rights law](https://matsne.gov.ge/ka/document/view/5420598) | Original law 2022; retrieved page explicitly final consolidation; exact latest amendment date not exposed in extracted view | Georgian precontract price/identity/payment disclosures and agreed information changes inform policy design; exact platform/transport applicability requires contract review. |
+| UP-L01 | [Licences/Permits law](https://matsne.gov.ge/ka/document/view/26824), [№1584 amendment](https://matsne.gov.ge/ka/document/view/6870591) | Amendment adopted 2026-05-27, published/effective 2026-05-29 | Taxi clauses extend beyond the capital to other self-governing cities; individual city implementing acts and legal classifications still matter. |
+| UP-L02 / MR-10/11 | [Georgian privacy law](https://matsne.gov.ge/ka/document/view/5827307), [№1694 amendment](https://matsne.gov.ge/ka/document/view/6887031) | Amendment adopted 2026-06-10, published/effective 2026-06-15 | Free final Georgian text inspected. 2030 commencement is only Art6(1)(ს); ordinary platform/research privacy duties not deferred. |
+| UP-L03 / MR-23 | [Georgian payments law](https://matsne.gov.ge/ka/document/view/1673253) | Final retrieved; latest listed amendment adopted 2025-12-17, published 2025-12-23 | Current Georgian provisions support scoped classification review; old English2015 edition not current. Original MR-23's Dec9 date is not the latest amendment metadata. |
+| UP-L04 | [Zugdidi merger №987-IIს](https://www.matsne.gov.ge/ka/document/view/3705170), [current local-government code](https://matsne.gov.ge/ka/document/view/2244429) | Merger adopted 2017-06-15; election-call commencement exact date not retrieved. Code final, latest listed amendment adopted 2026-05-27 | Merger and city/community definitions support a separate Zugdidi jurisdiction interpretation; no current taxi exemption or issued eligibility implied. |
+
+Domain ledgers with claim-specific primary URLs, dates and retrieval limits:
+
+- [Official market/economics refresh](PUBLIC-MARKET-ECONOMICS-2026-10-04.md): population boundaries, economic indicators, tourism/airport units and five-city implications.
+- [Official legal refresh](PUBLIC-LEGAL-2026-10-04.md): Georgian privacy/payments/tax/local/airport text, actual commencement dates and applicability limits.
+- [Official provider refresh](PUBLIC-PROVIDERS-2026-10-04.md): bank operation semantics, published TBC tariffs/reserves, map SKU/retention/vehicle-use terms and candidate directions.
+- [Evidence and decision synthesis](PUBLIC-EVIDENCE-UPDATE-2026-10-04.md): chosen directions, cash-flow implications and concrete continuation.
+
+## Explicitly missing actual sources and evidence
 
 - Current authoritative A-permit allocation/activation count matching the historical 35,558 claim.
 - Final consolidated Georgian Tbilisi taxi annex with all changes; per-city Kutaisi, Zugdidi, Batumi and Rustavi applicability opinions and municipal clarifications.

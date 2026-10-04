@@ -1,6 +1,6 @@
 # Product, business and architecture decision register
 
-Date: 2026-10-03. Names below are responsible roles until people are assigned. Accepted user direction differs from a proposed engineering/business choice and an open external gate. A decision marked proposed is a concrete recommendation; it is not an observed outcome or signed permission.
+Baseline: 2026-10-03; public-evidence decisions updated 2026-10-04. Names below are responsible roles until people are assigned. Accepted user direction differs from a proposed engineering/business choice and an open external gate. A decision marked proposed is a concrete recommendation; it is not an observed outcome or signed permission.
 
 | ID | Decision | Status | Owner | Revisit/closure trigger |
 |---|---|---|---|---|
@@ -26,5 +26,11 @@ Date: 2026-10-03. Names below are responsible roles until people are assigned. A
 | D-20 | Deterministic risk and matching; human appeals | Selected-proposed | Safety/product | ADR-009 ML eval/privacy/rollback evidence |
 | D-21 | Retention/privacy transfer/authority review and accessibility from foundation | Open-external + mandatory engineering work | Privacy/counsel/UX | Current law/source effective date + erasure/accessibility proof |
 | D-22 | Map/PSP adapters selected by capabilities/licenses/cost | Open vendor selection | Routing/payment | ADR-010 field corpus/signed capability/cost matrix |
+| D-23 | Agent obtains official public sources and selects ordinary research/planning directions autonomously | User-defined 2026-10-04 | Research agent | New user constraint; true company/field evidence remains separate |
+| D-24 | BOG Payment Manager first documentation reference; TBC comparator; UNIPAY registry-backed research alternative | Selected-proposed 2026-10-04 | Payment/finance | Actual merchant/funds-flow/fee/replay/reconciliation evidence; no eligible weighted score yet |
+| D-25 | Google coherent Maps/Geocoding/Routes first research stack; Mapbox conditional alternative | Selected-proposed 2026-10-04 | Routing/legal | Five-city quality, precise licences/retention/transfers and matrix-element cost; ADR-010 |
+| D-26 | Fund customer refunds separately from lawful beneficiary recovery; reviewed payout timing, no assumed split reversal/custody | Selected-proposed 2026-10-04 | Finance/counsel | Actual BOG/other bank agreement and refund-after-payout F-04/05; ADR-008 |
+
+The [2026-10-04 synthesis](research/PUBLIC-EVIDENCE-UPDATE-2026-10-04.md) supplies the public source and rationale for D-23–26. Candidate order is a documentation decision, not a signed provider selection or application implementation.
 
 Record final decisions through the relevant ADR or business/legal decision artifact with date, reviewed evidence and affected requirement/task IDs. Significant provider/rate/schema/security changes update master, contracts, requirements and plans atomically. Do not mark all v1 requirements complete because these decisions are documented.

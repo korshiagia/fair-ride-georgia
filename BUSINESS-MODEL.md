@@ -1,6 +1,6 @@
 # Business model and planning economics
 
-Date: 2026-10-03. Currency: GEL. All financial inputs below are explicit planning assumptions, not researched quotations, current market prices, tax advice, or revenue forecasts. User-selected cities: Zugdidi, Kutaisi, Batumi, Tbilisi, Rustavi.
+Baseline: 2026-10-03; public-evidence refinement: 2026-10-04. Currency: GEL except explicitly USD-denominated mapping examples. Original model inputs remain explicit planning assumptions, not quotations, tax advice or revenue forecasts. The dated public-price section below is separate from unknown company-specific costs. User-selected cities: Zugdidi, Kutaisi, Batumi, Tbilisi, Rustavi.
 
 ## Commercial baseline
 
@@ -40,7 +40,7 @@ At these **illustrative** costs, 10% commission gives 0.386/ride; 20% gives 1.58
 
 Conditional tax sensitivity only: if a 1.80 commission is VAT-inclusive at an assumed 18%, net commission is 1.80/1.18 = 1.5254 and illustrative contribution falls to 0.7114. This does **not** establish VAT registration, rate applicability, fee base or recovery rights. Counsel/accountant must supply the actual regime before this scenario is used commercially.
 
-At assumed monthly fixed opex 250,000, break-even on contribution 0.986 would need about 253,550 completed rides/month, or 8,452/day using 30 days. Under the conditional VAT scenario, using unrounded contribution 1.80/1.18−0.814, about 351,408/month, or 11,714/day. Demand and feasible driver capacity have not been validated. This exercise explains why low commission alone cannot prove a viable business.
+At assumed monthly fixed opex 250,000, break-even on contribution 0.986 would need at least 253,550 completed rides/month, or about 8,452/day using 30 days. Under the conditional VAT scenario, using unrounded contribution 1.80/1.18−0.814 and rounding required whole rides upward, at least 351,409/month, or about 11,714/day. Demand and feasible driver capacity have not been validated. This exercise explains why low commission alone cannot prove a viable business.
 
 Driver illustration: B=6,000/month, c=15%, no tips/incentives implies 5,100 gross receipts before costs. At 200 online hours and hypothetical C=2,200, net contribution=14.50/hour. All three B/H/C are assumed. This must never be described as guaranteed take-home income.
 
@@ -78,5 +78,17 @@ City launch acquisition budgets are released against evidence: route/hour-specif
 Commission 15% is a proposed modeling baseline. Fare rates, waiting grace/caps, cancellation amounts, airport fees, no-show windows, payout cadence and maximum corporate credit are not invented here. The governing contracts and versioned policy schemas must exist before the provider/city is enabled. Apply them in shadow/sandbox and then controlled staffed operation; no policy omission is handled by an invisible default fee.
 
 Record city-level cash/card mix, fare distribution, PSP fixed/variable fees, map calls/ride, matching attempts/request, support incidence and payment failure. Use adverse scenarios: fare −20%, utilization −30%, acquisition +50%, PSP cost +50%, incentives double, seasonal demand trough and provider outage. Reconcile ledger to PSP bank statements before replacing assumptions with measured figures.
+
+## Public-cost and market refinement — 2026-10-04
+
+Use the [market report](research/PUBLIC-MARKET-ECONOMICS-2026-10-04.md) for official macro/population/tourism context and the [provider report](research/PUBLIC-PROVIDERS-2026-10-04.md) for exact public tariffs, SKU units, dates and conditional cost calculations. Neither supplies observed driver hours, costs, fares, city taxi conversion, CAC, retention or a company quotation. Do not replace those inputs with national salary/airport passenger totals. Keep 15% and the funding/team envelope as sensitivities.
+
+Selected research focus is Tbilisi/Rustavi corridor and Kutaisi ordinary city in parallel, Batumi contrasting seasons and Zugdidi city/periphery separately. This does not certify the provisional activation order. September transport-price evidence motivates an additional **assumed +30% operating-cost stress** in the eventual diary analysis. A by-hand sensitivity on the original hypothetical B=6,000, c=15%, H=200, C=2,200 gives C=2,860 and **11.20 GEL net contribution/online hour**, instead of14.50, before unresolved tax/contract changes. It is not a measured expense increase or income forecast and is not added to the unchanged CLI inputs.
+
+The public TBC schedule informs a comparator, not BOG/project pricing. In the report's hypothetical 10,000 rides ×12 GEL, 60% card, 20% foreign-card and 25% Apple Pay mix, published-rate acquiring cost is **1,584 GEL/month or 0.1584 GEL/all completed ride** before unlisted charges. Replacing only the old illustrative 0.144 PSP component yields **0.9716 GEL/ride** pre-tax contribution, not validated profitability. Monthly minimum is `max(50, calculated eligible fees)`, not another 50 added on top. Foreign-card reserve is tied-up working capital, not another commission expense. The report's steady six-cohort reserve sensitivity is 9,140 GEL including its published 500 component; applicability/release terms remain unconfirmed.
+
+Maps cost must be modeled from requests and matrix **elements**, including unfulfilled quotes and matching attempts. The provider report's synthetic Google traffic-aware workload costs USD1,150 at 10k rides and USD9,750 at 100k rides, excluding display/search/navigation, taxes and other costs. Mapbox's lower listed API subtotals cannot establish eligible vehicle-use licensing or comparable Georgian quality. No exchange rate or full TCO is invented; replace the old GEL0.08 maps input only after exact SKU/licence/workload/FX evidence is available.
+
+Use BOG first as a documentation reference, with TBC comparison. Refund funding, settlement reserve and lawful driver/fleet payout scheduling are separate cash-flow obligations; immediate split is not assumed reversible. No platform custody/wallet is authorized by delaying payout. See [ADR-008](adr/008-fares-ledger-and-payments.md) and [ADR-010](adr/010-mapping-and-payment-provider-gates.md). All original model JSON inputs and calculator code remain unchanged by this desk refresh.
 
 Reference evidence and legal limitations: [MARKET-REGULATORY](research/MARKET-REGULATORY.md), [SOURCE-REGISTER](research/SOURCE-REGISTER.md), [validation gates](VALIDATION-AND-LAUNCH-GATES.md).

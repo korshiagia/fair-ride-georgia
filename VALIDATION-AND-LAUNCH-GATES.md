@@ -1,17 +1,20 @@
 # Validation, assumptions and launch gates
 
-Baseline: 2026-10-03. Every numeric target is proposed unless marked as observed evidence. No field interview, vendor quotation, legal signoff, app/security/load test, live payment or city activation has been completed. This register is the explicit path for validating what desk research cannot establish. It is not a statement of legal compliance.
+Baseline: 2026-10-03; public-evidence refinement: 2026-10-04. Every numeric target is proposed unless marked as observed evidence. Public tariffs/statistics have their own dates and applicability limits in the [dated synthesis](research/PUBLIC-EVIDENCE-UPDATE-2026-10-04.md). No field interview, company vendor quotation, legal signoff, app/security/load test, live payment or city activation has been completed. This register is the explicit path for validating what desk research cannot establish. It is not a statement of legal compliance.
 
 ## Status model and owners
 
 - **DEFINED**: user-selected cities and technology direction.
 - **VERIFIED-DESK**: bounded primary-source fact with source date/effective version in SOURCE-REGISTER.
+- **DOCUMENTED_PUBLIC**: provider-published capability/price/constraint, scoped as VERIFIED-DESK; actual merchant availability and performance remain separate.
 - **SELECTED-PROPOSED**: architecture/business choice suitable for review, still needs outcomes.
 - **OPEN-EXTERNAL**: real interview/contract/professional/municipal/provider evidence required.
 - **OPEN-ENGINEERING**: implementation, device/race/fault/load/security proof required.
 - **PASSED**: attributable dated evidence reviewed by the accountable owner; never inferred from a document filename.
 
 Owner roles are planning responsibilities. Before execution, assign a named person and reviewer; an agent can prepare materials but cannot impersonate a legal signer, customer interviewee or operational staff.
+
+The user's 2026-10-04 instruction delegates official public research and ordinary planning choices to the agent. Public statutes, municipal/airport pages, datasets and provider docs/price/licence pages are researched by the agent; their absence from the user's files is not a blocker. The user is not asked to collect these materials. Remaining actual gates are company-specific legal/merchant/operator acceptance, authorized real field observations and measured engineering outcomes. Continue independent local specifications/analysis with explicit assumptions while those remain open; this does not close M0 or authorize implementation.
 
 | Assumption / decision | Status | Validation | Accountable role / requirement |
 |---|---|---|---|
@@ -47,6 +50,8 @@ Foundation artifacts are already prepared in this pack. M0 is closed only after 
 6. Product/engineering owner records M0 decision and unresolved capability-specific blockers. Foundational non-live work can only proceed on an explicitly reviewed bounded contract; live airport/payment/privacy work waits for its applicable gate.
 
 This user request authorizes preparation of specifications and plans. It does not start application implementation. The first executable research plans can prepare materials locally; actual outreach/reviews require real human/vendor participation and appropriate execution authorization. A rejection or missing provider answer is evidence of an open gate, not permission to invent terms.
+
+The independent **01-04 public-evidence supplement** separates autonomous source research from the actual human-action tasks in 01-01/01-02. Its completion is scoped desk-research progress; it cannot pass BIZ-03/BIZ-04/VND-01 or the full phase. Selected public directions are BOG-first payment documentation with TBC comparison, Google-first coherent maps and separately funded refunds/lawful payout scheduling. Merchant/licence eligibility, five-city quality and principal/agent/tax acceptance remain open even where API facts or published prices are documented.
 
 ## Technical acceptance at M4
 

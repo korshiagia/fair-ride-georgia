@@ -23,6 +23,7 @@ GSD Core-ის ადგილობრივი **1.15.0** ვერსია 
 | [GSD-WORKFLOW.md](GSD-WORKFLOW.md) | ზუსტი ადგილობრივი workflow, runtime audit, schema და gate-ები |
 | [Market & regulatory research](research/MARKET-REGULATORY.md) | საჯარო წყაროებით დადასტურებული ფაქტები და დარჩენილი კვლევა |
 | [Source register](research/SOURCE-REGISTER.md) | წყარო, თარიღი, მოქმედი ვერსია და claim-ის ზღვარი |
+| [2026-10-04 საჯარო განახლება](research/PUBLIC-EVIDENCE-UPDATE-2026-10-04.md) | ბაზრის/კანონების/ბანკებისა და რუკის მიმდინარე წყაროები, არჩეული მიმართულებები და გაგრძელება |
 | [DECISION-REGISTER.md](DECISION-REGISTER.md) | მომხმარებლის მოთხოვნები, არჩეული ვარაუდები და ღია გადაწყვეტილებები |
 | [VALIDATION-AND-LAUNCH-GATES.md](VALIDATION-AND-LAUNCH-GATES.md) | როდის შეიძლება implementation/რეალური მომსახურების დაწყება |
 | [TASK-PLAN.md](TASK-PLAN.md) | 48 კონკრეტული სამუშაო ბარათი, პასუხისმგებლობა, დამოკიდებულებები და acceptance |
@@ -36,13 +37,14 @@ GSD Core-ის ადგილობრივი **1.15.0** ვერსია 
 - [config](.planning/config.json): შემოწმებადი კვლევა/გეგმა/verification/security; ავტომატური გაგრძელება გამორთულია.
 - [AGENTS](AGENTS.md): domain/finance/privacy კონტროლები და მუშაობის წესები.
 
-პირველი ორი ფაზისთვის მომზადებულია ცხრა native GSD გეგმა:
+პირველი ორი ფაზისთვის მომზადებულია ათი GSD-compatible გეგმა; 01-04 დაემატა მომხმარებლის ავტონომიური საჯარო კვლევის ინსტრუქციით:
 
 | გეგმა | მიზანი |
 |---|---|
 | [01-01](.planning/phases/01-validation-contracts/01-01-PLAN.md) | ქალაქების evidence, რეალური field research და economics |
 | [01-02](.planning/phases/01-validation-contracts/01-02-PLAN.md) | სამართლებრივი funds flow და PSP/maps კონტრაქტები |
 | [01-03](.planning/phases/01-validation-contracts/01-03-PLAN.md) | პროდუქტის/privacy/security/API contract და M0 მიმოხილვა |
+| [01-04](.planning/phases/01-validation-contracts/01-04-PLAN.md) | დამოუკიდებელი მიმდინარე საჯარო კვლევა და დასაბუთებული სამუშაო მიმართულებები; თავდაპირველი გარე gate-ები ღიაა |
 | [02-01](.planning/phases/02-platform-foundation/02-01-PLAN.md) | Backend bootstrap და სერვერის კონტრაქტები |
 | [02-02](.planning/phases/02-platform-foundation/02-02-PLAN.md) | TypeScript/Dart კონტრაქტების ბიბლიოთეკები |
 | [02-03](.planning/phases/02-platform-foundation/02-03-PLAN.md) | Kotlin კლიენტი, ინტეგრირებული CI და provenance |
@@ -60,4 +62,4 @@ GSD Core-ის ადგილობრივი **1.15.0** ვერსია 
 
 15%-იანი საკომისიო, 15-კაციანი product/engineering გუნდი, 12–15 თვე და 4.95–6.00 მილიონი ₾ **დაგეგმვის სცენარებია**. რეალური კომერციული ვალდებულება დგინდება ვალიდირებული ფინანსური მოდელითა და ფასებით. ფინანსური კონტროლი, უსაფრთხოების მხარდაჭერა, privacy და accessibility სრულ პროდუქტს თავიდანვე ეკუთვნის.
 
-მომდევნო ნაბიჯია **Phase 1: რეალური ბიზნეს/სამართლებრივი/მომხმარებლის მტკიცებულებების შეგროვება და M0 contract-ის დახურვა**. აპლიკაციის განხორციელება იწყება შესაბამისი review-ისა და implementation ინსტრუქციის შემდეგ.
+საჯარო წყაროების მოძიება და ჩვეულებრივი დაგეგმვის არჩევანი აგენტის სამუშაოა; მომხმარებლისგან მათი მოტანა საჭირო არ არის. [განახლებულ პაკეტში](research/PUBLIC-EVIDENCE-UPDATE-2026-10-04.md) გამოყოფილია გადამოწმებული ფაქტები, არჩეული კანდიდატები და რეალური კომპანიის/კვლევის შემდგომი პირობები. Phase 1/M0 ღიაა; დამოუკიდებელი ადგილობრივი სპეციფიკაციები შეიძლება მომზადდეს მკაფიო ვარაუდებით. აპლიკაციის განხორციელება იწყება შესაბამისი review-ისა და ცალკე implementation ინსტრუქციის შემდეგ.

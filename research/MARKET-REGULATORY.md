@@ -1,6 +1,6 @@
 # Georgia Ride-Hailing: Market, Regulatory and Economic Foundation
 
-**Research cutoff:** 2026-10-03, Asia/Tbilisi. **Status:** desk research complete for the cited claims; commercial, municipal and legal validation still open. This is a planning evidence document, not a legal opinion or a market-size estimate. Source IDs refer to [SOURCE-REGISTER.md](SOURCE-REGISTER.md).
+**Baseline cutoff:** 2026-10-03, Asia/Tbilisi; **public refresh:** 2026-10-04. The [latest evidence/decision update](PUBLIC-EVIDENCE-UPDATE-2026-10-04.md) and its market/legal/provider reports supersede specifically identified stale access limitations and provisional directions below; unrefreshed historical claims retain their original scope. Commercial eligibility, professional applicability and actual cohorts remain open. This is a planning evidence document, not a legal opinion or a market-size estimate. Source IDs refer to [SOURCE-REGISTER.md](SOURCE-REGISTER.md).
 
 ## 1. Decision implications
 
@@ -59,6 +59,8 @@ The seasonal nature and flight-wave effects above are **risk hypotheses to test*
 ## 4. Licensing, driver verification and the platform's legal role
 
 ### Evidenced municipal requirements
+
+**2026-10-04 national-framework correction:** the May2026 amendment №1584 extends the taxi permission clauses in the national Licences/Permits law to the capital **or another self-governing city**, effective **2026-05-29**. This does not transfer Tbilisi categories or establish each municipality's current implementing act. Zugdidi's city-versus-merged-municipality scope needs its own review; the 2017 merger and current code definitions are documented in the [legal refresh](PUBLIC-LEGAL-2026-10-04.md). [Current law](https://matsne.gov.ge/ka/document/view/26824), [amendment](https://matsne.gov.ge/ka/document/view/6870591).
 
 Tbilisi Resolution 24-80 of 2018-07-27 is the base taxi instrument. The substantial 2023 amendment establishes A and B rules, an indefinite A-permit transition, and B application/vehicle requirements. A has white vehicle/roof-sign and displayed driver-card conditions; B is call-based, with no taxi identifying/illuminated sign. Vehicles are M1, left-hand drive with five doors; the rule also addresses inspection and the driver's valid licence. [Base instrument](https://matsne.gov.ge/ka/document/view/4275377), [2023 amendment](https://matsne.gov.ge/ka/document/view/5752819) (MR-17, MR-18).
 

@@ -1,6 +1,6 @@
 # Legal/provider evidence index — 01-02, v1.0
 
-Prepared/access cutoff **2026-10-04, Asia/Tbilisi**. Status: public-source discovery + prepared instruments; actual professional/company/provider outcomes absent. BIZ-03/VND-01, D-01/02/04, T-01-03/04. No invented review, merchant availability, permission, quote or test outcome. This register is an evidence acquisition/validation index, not a provider decision or M0 acceptance.
+Prepared/access cutoff **2026-10-04, Asia/Tbilisi**. Status: public-source discovery + prepared instruments, with further claim-specific public research below; actual professional/company/provider outcomes absent. BIZ-03/VND-01, D-01/02/04, T-01-03/04. No invented review, merchant availability, permission, quote or test outcome. This register is an evidence acquisition/validation index, not a provider decision or M0 acceptance.
 
 ## Evidence classes and acceptance
 
@@ -74,3 +74,19 @@ Evidence validation before marking PASS: authenticate original/author/source; ma
 | T-01-04 restricted evidence | Synthetic IDs, hosted/tokenized payment proposal, authorized intake, minimal redacted summaries, logs/events/backups and transfer review | No raw cards/secrets/privileged/raw personal records committed; operational controls not implemented |
 
 The Task 1 human-check can review technical preparation for completeness and explicit unknowns; it cannot substitute for counsel/accountant acceptance or provider-specific evidence. External Task 2 remains the gate. Task 3 will produce reviewed outcomes/recommendations only when actual evidence permits them; no requirement, plan or M0 completion is claimed now.
+
+## Further autonomous public research — 2026-10-04
+
+See [PUBLIC-PROVIDERS-2026-10-04](../../research/PUBLIC-PROVIDERS-2026-10-04.md) for the PP claim-specific primary source URLs, publication/version/access dates, capability matrix, selected provisional direction and reproducible synthetic cost scenarios. `DOCUMENTED_PUBLIC` reduces documentation gaps only; every company eligibility, actual contract/test and professional review gate remains UNKNOWN. Public prices are not company offers. This supplement preserves the earlier failed-retrieval record rather than claiming it never happened.
+
+| Earlier evidence / refined claims | Current public status | Commercial / actual limit |
+|---|---|---|
+| E-P03 → PP-B01–08 | Actual BOG HTML pages now retrieved: manual/full/partial preauth, cancel/refund, operation-key replay, RSA callback, details/actions and saved-card references DOCUMENTED_PUBLIC | Earlier granular `.md` failure is historical access evidence. Product-specific actual finality/underwriting/key lifetime/price/tests remain UNKNOWN |
+| E-P03 split → PP-B05 | Public split constraints and explicit refund **non-reversal** DOCUMENTED_PUBLIC | Immediate split cannot be assumed refund-safe; lawful funded recovery still required |
+| E-P01/02 → PP-T01–04 | TBC public tariff/product/cancel/split/details facts DOCUMENTED_PUBLIC | Company terms, refund/payout fees, replay/authenticity and actual provider behavior not established |
+| E-L02 → PP-N01/02 | Actual NBG table accessible at its separate provider URL; UNIPAY registration row supports research admission; TBC PAY separate from bank acquiring | Earlier title-only page was incomplete extraction. Registry does not prove merchant or full funds-flow eligibility; no Payze absence/revocation conclusion |
+| PP-U01 | UNIPAY V3 official search extraction supports narrow API discovery; direct body extraction empty | Detailed guarantee/terms/test gaps keep mandatory gates UNKNOWN; not a selected eligible PSP |
+| E-M01 → PP-G01–05 | Current Google public prices, SKU billing and service-specific narrow retention/display constraints DOCUMENTED_PUBLIC | Geography quality, company agreement/privacy transfer and actual calls/observation unknown |
+| E-M02 → PP-M01–06 | Public Mapbox prices, geocode/search/offline/vehicle-use constraints DOCUMENTED_PUBLIC | Vehicle-use licence applicability/order, full product terms, Georgian search/traffic/quality and actual corpus still open |
+
+Provisional research/design order: BOG Payment Manager documentation first, TBC comparator, UNIPAY registry-backed alternative; Google coherent map stack first, Mapbox conditional alternate. It is not weighted provider selection: mandatory UNKNOWN → HOLD; no launch-eligible provider or score is claimed. Deferred bank payout/refund funding is a proposed alternative awaiting legal/bank acceptance, not presumed custody authority. Synthetic public-cost models are separate from unknown full TCO, bank statements and sandbox outcomes. Actual professional opinions/merchant offers/provider runs/city observations remain 0. No source register, ADR, rubric, calculator input, requirement or phase completion was altered by this supplement.

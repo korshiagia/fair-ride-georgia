@@ -12,6 +12,8 @@ Prepared 2026-10-04, Asia/Tbilisi. BIZ-03/VND-01; D-04 and D-01/02; T-01-03/04. 
 
 Choose one effective model per service/contract before implementation. Do not “solve” a rejected split model by quietly holding all funds in a platform wallet. If no legal/provider path passes, hold the feature/M0 and seek a revised reviewed path. Taxes, tips, promotions, tolls and cancellation fees must have distinct policy/account mappings; 15% and any tax examples remain sensitivity assumptions.
 
+**Public refinement, 2026-10-04:** [BOG split documentation](https://api.bog.ge/docs/en/payments/split-payment/) explicitly separates refund from recovery of completed/in-progress recipient transfers. For the BOG documentation path, F-04/05 therefore cannot assume automatic split reversal. Propose independently funded customer refunds and a legally/bank-reviewed payout schedule or direct-beneficiary recovery model; no delay grants platform custody authority. [Dated provider report](../../research/PUBLIC-PROVIDERS-2026-10-04.md) records the public fact, while actual beneficiary, fees, recovery and bank approval remain UNKNOWN. No generic TBC/other-provider behavior is inferred from BOG.
+
 ## State and authoritative evidence contract
 
 Trip, assignment, payment-operation and safety states are independent. Completion does not mean capture or bank settlement. Every obligation binds city/jurisdiction, contract/beneficiary snapshot, fare/commission policy version and passenger-authorized amendments. Weak or stale location cannot alone trigger a wait/cancellation penalty.
