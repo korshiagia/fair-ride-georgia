@@ -10,6 +10,8 @@ actual_scenarios: NOT RUN
 ---
 # Independent contract traceability
 
+**CURRENT OVERLAY — 2026-10-05, Asia/Tbilisi:** source v0.2 df25a3eb743d3bfc0414e2037b91f7a19469e615 has been independently re-reviewed. Use the [current trace overlay](#current-v02-trace) and [resolution matrix](contract-desk-review.md#rereview-2026-10-05): **1 High / REVISE-DRAFT (F-02 / RR-02-A), 0 Medium** currently open local findings; eleven other written ambiguities CONSISTENT-DESK. All preceding original v0.1 row/finding/handoff dispositions are preserved historical provenance, not the current issue count. Four OPEN-EXTERNAL base findings, all actual gates and seven unverified prohibition flags remain open; every actual case NOT RUN, no new evidence, cutoff2026-10-04 unchanged.
+
 **DRAFT / UNREVIEWED — 2026-10-04, Asia/Tbilisi.** Reviewer: fresh independent local technical agent, not author of the six 01-05 source drafts. This is repository logic analysis only; no counsel/privacy/finance/merchant/field/security signoff. Public evidence is the already completed 01-04 cutoff/access 2026-10-04, not a new retrieval. Actual professional/company evidence: **NOT RECEIVED**; every actual provider, city, field, device, application and recovery scenario: **NOT RUN**.
 
 Source baseline: committed 01-05 drafts at cbb68b716e92a4f62c6ac63f4b592704ac78ffa5. Source drafts remain read-only. [Independent findings](contract-desk-review.md) preserve contradictions rather than imply repair. [Original 01-01 checkpoint](../../../.planning/phases/01-validation-contracts/01-01-CHECKPOINT.md), [01-02 checkpoint](../../../.planning/phases/01-validation-contracts/01-02-CHECKPOINT.md) and [future 01-03](../../../.planning/phases/01-validation-contracts/01-03-PLAN.md) remain open.
@@ -25,7 +27,7 @@ Evidence profiles: L = SELECTED-DIRECTION from MASTER/TECHNICAL/DOMAIN/ADR basel
 <a id="journey-trace"></a>
 E+R retains both public/external provenance and an unresolved revision. R never removes an applicable external gate.
 
-## Complete journey and overlays
+## Complete journey and overlays — historical v0.1 dispositions
 
 Personal card path: rows 01→02→03→04→05→06→07→08→09→10→11 only if consented→12→13→15→16→17. Cash/approved corporate credit uses 14 instead of claiming card settlement. Cancel/rematch 18 and safety/abort 19 are separate branches; 25/26 apply throughout. Fleet 21 joins beneficiary/payment 14; corporate 22 joins 03/04/11/14/15 under business authority, excludes private rides. Scheduled/airport/intercity 20 joins exact policy gates before live trip creation: unresolved handoff F-04 remains explicit.
 
@@ -195,3 +197,62 @@ Use this package only as provisional review input. Original dependency remains a
 
 requirements-completed: [].
 All five ordinary city activation states DISABLED; all three airport capabilities separately DISABLED; Zugdidi/Rustavi local airports unclaimed; all20 directed city pairs and scheduled overlay HOLD/DISABLED. Phase1 OPEN, M0 OPEN, implementation OPEN. No finding retroactively completes original tasks.
+
+<a id="current-v02-trace"></a>
+## Current trace overlay — independently re-reviewed 2026-10-05
+
+Source version is v0.2, exact correction **df25a3eb743d3bfc0414e2037b91f7a19469e615**, independently diffed against **3fdae401fd42f4ecd0dc243bb7e38ff7f404922b**. All preceding trace, revision/requirement/edge narratives and handoff are the preserved v0.1 review baseline at cbb68b7; use this version-specific overlay and the [current twelve-row resolution matrix](contract-desk-review.md#rereview-2026-10-05) for current dispositions. Historical F-01–12 issue text/IDs and initial 7 High/5 Medium counts are not erased or claimed as current open counts.
+
+**Current local open findings: 1 High / REVISE-DRAFT (F-02, RR-02-A), 0 Medium.** F-01 and F-03–12 are CONSISTENT-DESK for their specified written ambiguities; F-02 historical finance/failed-auth subparts are consistent but finite worker operation coverage remains incomplete. No extra finding is hidden: [RR-02-A](contract-desk-review.md#rr-02-a) precisely names missing nonterminal TR-06 search, asynchronous TR-11 EFFECTIVE finalizer and OP-15 internal finance.issue grants, deterministic expected authority and bounded owner fix. Source drafts are read-only here and remain DRAFT/unreviewed by accountable external reviewers. No new public/actual evidence; cutoff/access2026-10-04 remains.
+
+Each current row retains the preceding exact SCR/TR/OP/AC/TH source set, DATA link, requirement/decision and applicable POL IDs; the changed disposition below supersedes its initial local revision claim only. All current rows retain NOT RUN actual scenarios and OPEN-ENGINEERING. CONSISTENT-DESK is local written logic only; applicable external gates remain.
+
+| Current row / preserved exact source navigation | Current primary written disposition | Current return / independent interaction |
+|---|---|---|
+| <a id="v02-j-01"></a>[J-01](#j-01) | CONSISTENT-DESK | [F-01 re-review](contract-desk-review.md#rr-f-01); Challenge bootstrap; actual NOT RUN. |
+| <a id="v02-j-02"></a>[J-02](#j-02) | CONSISTENT-DESK | [F-13](contract-desk-review.md#f-13); Manual address; actual NOT RUN. |
+| <a id="v02-j-03"></a>[J-03](#j-03) | OPEN-EXTERNAL | [F-14](contract-desk-review.md#f-14); Lawful quote/route rights; actual NOT RUN. |
+| <a id="v02-j-04"></a>[J-04](#j-04) | CONSISTENT-DESK | [F-15](contract-desk-review.md#f-15); Quote/rider claim; actual NOT RUN. |
+| <a id="v02-j-05"></a>[J-05](#j-05) | REVISE-DRAFT interaction | [F-02 re-review](contract-desk-review.md#rr-f-02); Historical finance/failed-auth correction coherent; succeeding search needs RR-02-A grant; actual NOT RUN. |
+| <a id="v02-j-06"></a>[J-06](#j-06) | REVISE-DRAFT | [F-02 / RR-02-A](contract-desk-review.md#rr-02-a); NO_DRIVER cleanup fixed; nonterminal scheduler/search grant still unnamed; actual NOT RUN. |
+| <a id="v02-j-07"></a>[J-07](#j-07) | CONSISTENT-DESK | [F-10 re-review](contract-desk-review.md#rr-f-10); PG exclusive accept, candidate versus economic beneficiary; actual NOT RUN. |
+| <a id="v02-j-08"></a>[J-08](#j-08) | CONSISTENT-DESK | [F-17](contract-desk-review.md#f-17); Current generation en route; actual NOT RUN. |
+| <a id="v02-j-09"></a>[J-09](#j-09) | CONSISTENT-DESK | [F-18](contract-desk-review.md#f-18); Arrival/notice/fee separation; actual NOT RUN. |
+| <a id="v02-j-10"></a>[J-10](#j-10) | CONSISTENT-DESK | [F-08 re-review](contract-desk-review.md#rr-f-08); Secret-safe PIN/attempt/reissue/start; actual NOT RUN. |
+| <a id="v02-j-11"></a>[J-11](#j-11) | REVISE-DRAFT interaction | [F-02 / RR-02-A](contract-desk-review.md#rr-02-a); F-09 funding/capture cap fixed; asynchronous EFFECTIVE authority still unnamed; actual NOT RUN. |
+| <a id="v02-j-12"></a>[J-12](#j-12) | CONSISTENT-DESK | [F-21](contract-desk-review.md#f-21); Immutable completion/release/payment separation; actual NOT RUN. |
+| <a id="v02-j-13"></a>[J-13](#j-13) | CONSISTENT-DESK | [F-02 re-review](contract-desk-review.md#rr-f-02); Historical-finance subissue fixed; RR-02-A is other operation grants; actual NOT RUN. |
+| <a id="v02-j-14"></a>[J-14](#j-14) | CONSISTENT-DESK | [F-10 re-review](contract-desk-review.md#rr-f-10); Economic party/current worker distinct from human visibility; actual NOT RUN. |
+| <a id="v02-j-15"></a>[J-15](#j-15) | REVISE-DRAFT | [F-02 / RR-02-A](contract-desk-review.md#rr-02-a); Read/issuer guards coherent; internal finance.issue worker grant unnamed; actual NOT RUN. |
+| <a id="v02-j-16"></a>[J-16](#j-16) | CONSISTENT-DESK | [F-23](contract-desk-review.md#f-23); Case-purpose/support/finance separation; actual NOT RUN. |
+| <a id="v02-j-17"></a>[J-17](#j-17) | OPEN-EXTERNAL | [F-24](contract-desk-review.md#f-24); Historical finance corrected; actual refund funding/lawful recovery terms remain absent; actual NOT RUN. |
+| <a id="v02-j-18"></a>[J-18](#j-18) | CONSISTENT-DESK | [F-07 re-review](contract-desk-review.md#rr-f-07); Fee-independent valid cancellation, canonical states/results; actual NOT RUN. |
+| <a id="v02-j-19"></a>[J-19](#j-19) | OPEN-EXTERNAL | [F-26](contract-desk-review.md#f-26); Abort own-claim cleanup fixed; actual staffed safety still absent; actual NOT RUN. |
+| <a id="v02-j-20"></a>[J-20](#j-20) | REVISE-DRAFT interaction + OPEN-EXTERNAL | [F-02 / RR-02-A](contract-desk-review.md#rr-02-a); F-04 live handoff fixed; succeeding TR-06 search grant still absent, rights/guarantee gates open; actual NOT RUN. |
+| <a id="v02-j-21"></a>[J-21](#j-21) | CONSISTENT-DESK | [F-10 re-review](contract-desk-review.md#rr-f-10); Current access versus earned entitlement/browser controls; actual NOT RUN. |
+| <a id="v02-j-22"></a>[J-22](#j-22) | CONSISTENT-DESK | [F-11 re-review](contract-desk-review.md#rr-f-11); Corporate private-ride exclusion/current spend/browser controls; actual NOT RUN. |
+| <a id="v02-j-23"></a>[J-23](#j-23) | CONSISTENT-DESK | [F-11 re-review](contract-desk-review.md#rr-f-11); Staff MFA/audit plus CSRF/origin/current generation; actual NOT RUN. |
+| <a id="v02-j-24"></a>[J-24](#j-24) | OPEN-EXTERNAL | [F-30](contract-desk-review.md#f-30); Erasure/hold/processor/restore actual proof absent; actual NOT RUN. |
+| <a id="v02-j-25"></a>[J-25](#j-25) | CONSISTENT-DESK | [F-03 re-review](contract-desk-review.md#rr-f-03); Covered read-cut, same-owner vector, current ACL and original result; actual NOT RUN. |
+| <a id="v02-j-26"></a>[J-26](#j-26) | CONSISTENT-DESK | [F-31](contract-desk-review.md#f-31); Rebuildable presence, minimized notice/projection, no external replay; actual NOT RUN. |
+
+### Current requirement, decision, edge and prohibition reconciliation
+
+All **152 stable IDs** remain explicit in the initial source indices and current row navigation: SCR-01–26, TR-01–26, OP-01–26, AC-01–26, TH-01–27, DATA-01–10, POL-SCHEMA/ZUG/KUT/BAT/TBI/RUS/APT-KUT/APT-BAT/APT-TBI/SCHEDULED/CORRIDOR. Added source v0.2 and review overlay anchors are auxiliary navigation; they do not change the business-ID inventory. Every actual NC-01–38 expected row remains NOT RUN; [current semantic return](contract-desk-review.md#rereview-2026-10-05) preserves their expectations and adds the finite-grant coverage obligation without fabricating a run.
+
+| Existing requirement / decision | Current acceptance boundary |
+|---|---|
+| [BIZ-01](#req-biz-01) / [D-01](#decision-d-01) | Five distinct cities, three distinct airports, twenty directions and scheduled policy remain disabled/HOLD; applicable current company/driver/vehicle/permit/rights opinions NOT RECEIVED. |
+| [BIZ-02](#req-biz-02) / [D-03](#decision-d-03) | Actual cost/tax/diary/finance inputs remain absent; 15% and numerical economics remain hypotheses. No model rerun or approved economics. |
+| [BIZ-03](#req-biz-03) / [D-04](#decision-d-04) | Actual Georgian company/service/driver/issuer/custody/refund/liability/earning-time/netting opinions and terms remain absent. Written funding/beneficiary fixes do not resolve them. |
+| [BIZ-04](#req-biz-04) / [D-02](#decision-d-02) | Protocol-specific review and authorized actual city/shift/category/season collection remain original gates; actual records zero. Public/desk evidence is not field evidence. |
+| [VND-01](#req-vnd-01) / [D-04](#decision-d-04) | Merchant/licence/DPA/transfer/retention/finality/storage terms NOT RECEIVED; all actual PSP/maps adverse/corpus scenarios NOT RUN. UNKNOWN remains HOLD. |
+| [PRD-01](#req-prd-01) / [D-05](#decision-d-05) / [D-06](#decision-d-06) | Eleven version-specific desk resolutions plus residual F-02 revision; actual engineering/professional evidence and accountable canonical original01-03/M0 acceptance still required. No requirement completion. |
+
+D-01–06 retain their source meanings and provenance; selected directions are not deployed architecture or external permission. Current EDGE-01/02/03 remain local separation/fail-closed/effective-time directions with actual gates. EDGE-04 and EDGE-06 now return specifically to F-02/RR-02-A finite worker coverage; their initial twelve-finding lists are historical. EDGE-05's former fee/PIN/funding/result ambiguities are written-consistent against v0.2, with numerical/legal/provider/engineering gates still open. EDGE-07/08/09/10 (BIZ-02/03/04/VND-01 unclassified actual assumptions) remain UNRESOLVED, flagged=true. All seven P-05-01–04/P-06-01–03 descriptor-less prohibition flags remain flagged=true/status=unverified; no implementation control was verified.
+
+### Current provisional return
+
+The initial handoff's requirement to reconcile all twelve unresolved written findings is versioned: eleven specified ambiguities now have independent local CONSISTENT-DESK resolutions; F-02/RR-02-A still requires the bounded source-owner correction and another independent review. Accountable professional/domain reviewers still review complete proposed sections, not merely this matrix. Preserve both initial and corrected exact versions, acceptance evidence and residual conflicts. Original01-01/02 actual prerequisites and original01-03 integration/human M0 decision must still occur before any canonical import. Source-owner correction assertions and desk consistency cannot authorize a city, airport, corridor, fee, provider, staffed-safety promise or implementation action.
+
+requirements-completed: []; all six requirements/original01-01/02/03/Phase1/M0/implementation OPEN. All five city and three airport activation states DISABLED; scheduled/twenty directed services DISABLED/HOLD. Future external and engineering evidence remains separately authorized and owned; public source acquisition has already been completed through2026-10-04 and is not waiting on a user-upload prerequisite.

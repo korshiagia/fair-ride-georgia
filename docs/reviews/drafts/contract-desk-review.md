@@ -10,6 +10,8 @@ actual_scenarios: NOT RUN
 ---
 # Independent contract desk review
 
+**CURRENT OVERLAY — 2026-10-05, Asia/Tbilisi; source v0.2 df25a3eb743d3bfc0414e2037b91f7a19469e615:** [Independent re-review](#rereview-2026-10-05) supersedes the initial v0.1 dispositions below. Current open local count: **1 High (F-02 / RR-02-A), 0 Medium**; F-01/03–12 written ambiguities CONSISTENT-DESK, with F-02 historical finance subparts resolved and finite-operation coverage still REVISE-DRAFT. Original 7 High/5 Medium severity and three initial commits are preserved as history. Four OPEN-EXTERNAL base findings and all actual gates remain open. Every actual scenario NOT RUN; professional/company evidence NOT RECEIVED; cutoff2026-10-04 unchanged.
+
 **DRAFT / UNREVIEWED — 2026-10-04, Asia/Tbilisi.** Fresh independent local technical reviewer, not the author of the six committed source drafts. This review is local reasoning, not professional legal/privacy/finance approval, merchant acceptance, field evidence or security certification. Public-source cutoff/access is the completed 01-04 baseline 2026-10-04; no provider/application API ran here. All actual scenarios **NOT RUN**, actual professional/company acceptance **NOT RECEIVED**. [Full traceability](contract-traceability.md) accounts for every source ID.
 
 Source baseline cbb68b716e92a4f62c6ac63f4b592704ac78ffa5. We compared each actor/source/guard/effect/rejection/recovery row against universal clauses, policy/data/threat rows and canonical MASTER/TECHNICAL/DOMAIN/gates/ADRs. Local file/anchor checks cannot establish semantic correctness; findings below are the independent challenge. Six source drafts remain unchanged.
@@ -18,10 +20,12 @@ Source baseline cbb68b716e92a4f62c6ac63f4b592704ac78ffa5. We compared each actor
 
 CONSISTENT-DESK means local logic only and always retains OPEN-ENGINEERING and applicable OPEN-EXTERNAL gates. REVISE-DRAFT names a bounded written fix; it is not a confirmed exploitable application bug. OPEN-EXTERNAL requires named attributable scope-specific evidence; OPEN-ENGINEERING requires future authorized executable evidence. Severity describes consequence if an ambiguity is implemented: high = authority/assignment/money/privacy correctness gap; medium = recovery/contract ambiguity; information = coherent proposed rule or unvalidated prerequisite. No waiver or M0 decision follows.
 
-## Journey findings
+## Historical journey findings — v0.1 at cbb68b7
 
 <a id="f-01"></a>
 ### F-01 — Medium / REVISE-DRAFT: initial identity exception is not consistently expressed in API authority
+
+Historical initial finding; current version-specific disposition: [re-review F-01](#rr-f-01).
 
 Sources: [TR independent machines](../../contracts/drafts/trip-transition-catalogue.md#independent-machines-and-ownership) permits a challenge-bound principal for bootstrap without bearer session. [OP shared envelope](../../contracts/drafts/api-behavior.md#proposal-status-and-shared-envelope) says authenticated session/workload principal and session_generation; [OP-01](../../contracts/drafts/api-behavior.md#op-01) inherits expected version/session generation and AUTH_REQUIRED. [J-01](contract-traceability.md#j-01).
 
@@ -31,6 +35,8 @@ Owner: identity/API/security lead. Bounded fix: name challenge authority/envelop
 
 <a id="f-02"></a>
 ### F-02 — High / REVISE-DRAFT: asynchronous finance and failed-authorization termination need explicit authority lifetime
+
+Historical initial finding; current version-specific disposition: [re-review F-02](#rr-f-02).
 
 Sources: [global TR guards](../../contracts/drafts/trip-transition-catalogue.md#global-mutation-contract--applies-to-every-tr-row) require current session/effective relationship at commit; NONE assignment examples exclude post-completion finance; [TR-05](../../contracts/drafts/trip-transition-catalogue.md#tr-05), [TR-12](../../contracts/drafts/trip-transition-catalogue.md#tr-12), [TR-13](../../contracts/drafts/trip-transition-catalogue.md#tr-13), [TR-14](../../contracts/drafts/trip-transition-catalogue.md#tr-14), [TR-17](../../contracts/drafts/trip-transition-catalogue.md#tr-17), [TR-18](../../contracts/drafts/trip-transition-catalogue.md#tr-18). [J-05](contract-traceability.md#j-05) / [J-13](contract-traceability.md#j-13).
 
@@ -43,6 +49,8 @@ Owner: trip/payment/identity/finance leads with counsel. Bounded fix: explicit p
 <a id="f-03"></a>
 ### F-03 — High / REVISE-DRAFT: snapshot trip version does not order independent machines
 
+Historical initial finding; current version-specific disposition: [re-review F-03](#rr-f-03).
+
 Sources: [TR-25](../../contracts/drafts/trip-transition-catalogue.md#tr-25), [OP snapshot](../../contracts/drafts/api-behavior.md#snapshot-events-and-recovery), [TR independent machines](../../contracts/drafts/trip-transition-catalogue.md#independent-machines-and-ownership), [TH-25](../../security/drafts/threat-model.md#th-25). [J-25](contract-traceability.md#j-25).
 
 Snapshot names trip_version, assignment generation, policy/amendment and payment/safety status; client discards older aggregate versions. No explicit payment/safety/case/booking versions or snapshot cut is named. Completion trip version can remain unchanged while capture UNKNOWN→CAPTURED or safety NONE→OPEN; reordered distinct-aggregate events cannot be fenced with trip_version alone. Cursor is delivery position, not total cross-topic order.
@@ -54,6 +62,8 @@ Owner: API/realtime/trip/payment/safety leads. Bounded fix: document per-aggrega
 <a id="f-04"></a>
 ### F-04 — High / REVISE-DRAFT: scheduled trigger's handoff into live trip guards is under-specified
 
+Historical initial finding; current version-specific disposition: [re-review F-04](#rr-f-04).
+
 Sources: [TR-20](../../contracts/drafts/trip-transition-catalogue.md#tr-20) says dispatch creates own trip via booking contract; [TR-04](../../contracts/drafts/trip-transition-catalogue.md#tr-04) assumes unexpired quote, personal immediate active claim and payment intent; [POL-SCHEDULED](../../contracts/drafts/city-policy-schema.md#pol-scheduled), [TH-20](../../security/drafts/threat-model.md#th-20). [J-20](contract-traceability.md#j-20).
 
 Future calendar separation/nonoverlap and actual-trip feasibility are coherent, but the trigger does not explicitly link quote expiry/reconfirmation, active passenger claim, credit/preauth timing, membership revocation or atomic booking→trip deduplication. A future booking can collide with a currently active immediate trip even with a free named vehicle.
@@ -64,6 +74,8 @@ Owner: booking/trip/pricing/payment/corporate/ops leads. Bounded fix: explicit t
 
 <a id="f-05"></a>
 ### F-05 — High / REVISE-DRAFT: NO_DRIVER terminal effect omits passenger active-claim release
+
+Historical initial finding; current version-specific disposition: [re-review F-05](#rr-f-05).
 
 Sources: [TR-04](../../contracts/drafts/trip-transition-catalogue.md#tr-04) acquires active passenger claim; [TR-06](../../contracts/drafts/trip-transition-catalogue.md#tr-06) terminal NO_DRIVER effect names attempts/offers/hold release but not claim release; [TR-12](../../contracts/drafts/trip-transition-catalogue.md#tr-12) and [TR-18](../../contracts/drafts/trip-transition-catalogue.md#tr-18) explicitly release it. [J-06](contract-traceability.md#j-06).
 
@@ -182,6 +194,8 @@ Sources: [TH-27](../../security/drafts/threat-model.md#th-27), [J-23](contract-t
 <a id="f-06"></a>
 ### F-06 — High / REVISE-DRAFT: abort path omits release of active claims
 
+Historical initial finding; current version-specific disposition: [re-review F-06](#rr-f-06).
+
 Sources: [TR-19](../../contracts/drafts/trip-transition-catalogue.md#tr-19) records ABORTED end evidence/provisional fare but no assignment/passenger-claim release; [TR-12](../../contracts/drafts/trip-transition-catalogue.md#tr-12) and [TR-18](../../contracts/drafts/trip-transition-catalogue.md#tr-18) explicitly release. [J-19](contract-traceability.md#j-19), TH-19/DATA-06.
 
 Expected: explicit authorized abort atomically ends the trip and releases only its live passenger/driver/vehicle claims; case continues separately and provisional money does not pretend completion/capture. A safety report alone never releases assignment. Abort racing complete has one terminal winner and no duplicate settlement intent.
@@ -191,6 +205,8 @@ Owner: trip/safety/dispatch/DB lead. Bounded fix: declare terminal release and i
 <a id="f-07"></a>
 ### F-07 — Medium / REVISE-DRAFT: fee rejection must not accidentally reject valid cancellation
 
+Historical initial finding; current version-specific disposition: [re-review F-07](#rr-f-07).
+
 Sources: [TR global rejection](../../contracts/drafts/trip-transition-catalogue.md#global-mutation-contract--applies-to-every-tr-row) says all failed guards reject before effect; [TR-18](../../contracts/drafts/trip-transition-catalogue.md#tr-18) groups cancellation/rematch and FEE_EVIDENCE_HOLD; [ordering exceptions](../../contracts/drafts/trip-transition-catalogue.md#ordering-and-finance-exceptions) says missing notice/quality gives no automatic penalty. [J-18](contract-traceability.md#j-18).
 
 The monetary no-fee rule is explicit, but cancellation guard versus fee-decision guard is not separately stated in the row. Expected: otherwise valid prestart cancellation terminates/release regardless of missing qualifying fee evidence; fee decision is zero/pending manual review without automatic debit, not a blocked cancellation that keeps passenger/driver claims held. Illegal post-start cancellation still conflicts; use explicit abort workflow. Arrival/start/complete concurrency decides state under lock, never client timestamp.
@@ -199,6 +215,8 @@ Owner: trip/finance/ops/API. Bounded fix: split lifecycle outcome from optional 
 
 <a id="f-08"></a>
 ### F-08 — High / REVISE-DRAFT: PIN payload fingerprint needs a secret-safe definition
+
+Historical initial finding; current version-specific disposition: [re-review F-08](#rr-f-08).
 
 Sources: [OP shared canonical payload hash](../../contracts/drafts/api-behavior.md#proposal-status-and-shared-envelope), [TR-10](../../contracts/drafts/trip-transition-catalogue.md#tr-10), [DATA-05](../../security/drafts/privacy-data-map.md#data-05) keyed verifier/no secret plaintext in response cache, [TH-10](../../security/drafts/threat-model.md#th-10). [J-10](contract-traceability.md#j-10).
 
@@ -211,6 +229,8 @@ Owner: security/trip/API/privacy. Bounded fix: specify secret-safe keyed payload
 <a id="f-09"></a>
 ### F-09 — Medium / REVISE-DRAFT: amendment above existing card authorization needs an explicit path
 
+Historical initial finding; current version-specific disposition: [re-review F-09](#rr-f-09).
+
 Sources: [TR-11](../../contracts/drafts/trip-transition-catalogue.md#tr-11) approves passenger/corporate delta; [TR-13](../../contracts/drafts/trip-transition-catalogue.md#tr-13) requires bound fare/authorized amount; [funds F-01](../../legal/funds-flow.md#scenario-walkthrough--payer--obligation--pspbank--journal--reconciliation--liability), [J-11](contract-traceability.md#j-11). Finality/merchant capability remains UNKNOWN.
 
 Expected: approving a price delta does not grant a larger capture capability. If amended fare exceeds authorized amount, approved incremental/replacement authorization or explicit permitted alternative funding must succeed before additional paid service is accepted; UNKNOWN gives pending/owned resolution and preserves agreed original service or explicit termination, never silent cash/new-key second charge. Corporate amendment re-reserves budget atomically or fails without spend.
@@ -219,6 +239,8 @@ Owner: pricing/payment/corporate/finance/UX. Bounded fix: define amendment money
 
 <a id="f-10"></a>
 ### F-10 — Medium / REVISE-DRAFT: beneficiary snapshot timing needs a declared precedence
+
+Historical initial finding; current version-specific disposition: [re-review F-10](#rr-f-10).
 
 Sources: [TR-07](../../contracts/drafts/trip-transition-catalogue.md#tr-07) writes beneficiary contract snapshot at assignment; [TR-14](../../contracts/drafts/trip-transition-catalogue.md#tr-14) uses snapshotted beneficiary; [DATA-04](../../security/drafts/privacy-data-map.md#data-04); [TECHNICAL section 7](../../../TECHNICAL-SPEC.md#7-quotes-fares-and-financial-ledger) snapshots at economic event; [J-21](contract-traceability.md#j-21).
 
@@ -231,6 +253,8 @@ Owner: finance/fleet/counsel/trip. Bounded fix: distinguish eligibility snapshot
 <a id="f-11"></a>
 ### F-11 — High / REVISE-DRAFT: web-console session/CSRF protection is not represented in draft API contract
 
+Historical initial finding; current version-specific disposition: [re-review F-11](#rr-f-11).
+
 Sources: [OP shared envelope](../../contracts/drafts/api-behavior.md#proposal-status-and-shared-envelope) specifies bearer/session and server-derived authority; [TR-23](../../contracts/drafts/trip-transition-catalogue.md#tr-23)/[TH-23](../../security/drafts/threat-model.md#th-23) require MFA/audit; [TECHNICAL security section](../../../TECHNICAL-SPEC.md#9-security-tenant-isolation-and-safety-operations) explicitly requires secure/HttpOnly browser cookies with CSRF protection. [J-23](contract-traceability.md#j-23).
 
 MFA and object ACL do not replace origin/CSRF protection when browsers automatically attach session cookies. The drafts do not explicitly narrow universal session commands with the canonical browser control or a corresponding negative case. Canonical rule remains binding; this is a propagation gap.
@@ -241,6 +265,8 @@ Owner: identity/web/API/security lead. Bounded fix: carry the canonical browser-
 
 <a id="f-12"></a>
 ### F-12 — Medium / REVISE-DRAFT: aliases and uncertain-result error semantics need explicit wire mapping
+
+Historical initial finding; current version-specific disposition: [re-review F-12](#rr-f-12).
 
 Sources: [TR independent machine enums](../../contracts/drafts/trip-transition-catalogue.md#independent-machines-and-ownership) uses DRIVER_EN_ROUTE/DRIVER_ARRIVED; [SCR-18](../../contracts/drafts/screen-state-inventory.md#scr-18)/[TR-18](../../contracts/drafts/trip-transition-catalogue.md#tr-18) shorten EN_ROUTE/ARRIVED. [OP errors](../../contracts/drafts/api-behavior.md#errors-deadlines-and-degraded-reads) lists HTTP families but not PAYMENT_UNKNOWN, REFUND_UNKNOWN, PAYOUT_UNKNOWN, ARRIVAL_PENDING, DELIVERY_UNKNOWN. [Global recovery](../../contracts/drafts/trip-transition-catalogue.md#global-mutation-contract--applies-to-every-tr-row) calls for command-result query but no named proposal specifies its independent status schema.
 
@@ -323,3 +349,50 @@ The documentation tasks can finish with this candid revision verdict because the
 Observed on 2026-10-04: each of the three plan-declared PowerShell file-existence/nonempty commands passed; the tracer's automated command was also rerun after Task 1. Read-only independent local resolution of all 1,495 Markdown references across the six source drafts and two review files found no missing file/anchor. Explicit source-anchor inventory matched every one of the expected 152 IDs (26 SCR, 26 TR, 26 OP, 26 AC, 27 TH, 11 POL, 10 DATA), with none omitted. Per-journey checks found all 26 exact SCR/TR/OP/AC/TH sets and named finding returns. Inventory checks found 32 finding anchors, 38 negative-case anchors with actual NOT RUN status, six requirement rows, six decisions, ten edge records and seven prohibition flags; no inventory errors.
 
 These observations concern repository structure, inventory and local written comparison. The independent semantic result is the 12 unresolved revisions and the expected-behavior/evidence record above. The checks did not observe the negative scenarios, certify requirement coverage/design correctness, validate external links or provider capability, or produce professional acceptance. Source drafts remain byte-for-byte unchanged in this plan's Git diff. All command/provider/application/field/security behavior remains future evidence, NOT RUN; the original external evidence remains NOT RECEIVED.
+
+<a id="rereview-2026-10-05"></a>
+## Independent re-review — 2026-10-05, source v0.2
+
+Exact source correction reviewed: **df25a3eb743d3bfc0414e2037b91f7a19469e615**, compared with **3fdae401fd42f4ecd0dc243bb7e38ff7f404922b** across all six actual source files. Each matrix row below is pinned to that full correction hash (abbreviated df25a3e in the row); links name its actual corrected sections and unchanged stable IDs. We read the source-owner appendix in 01-05-SUMMARY as a claimed correction inventory, then independently compared the actual diffs, universal clauses, row effects/rejections and interactions. Author clause/link counts were not semantic proof.
+
+**Current local verdict: REVISE-DRAFT, one High open local finding F-02 / RR-02-A, zero Medium open local findings.** Eleven other original written ambiguities are CONSISTENT-DESK; the historical 7 High/5 Medium counts describe v0.1 and are not current open counts. Historical finance/failed-auth subparts of F-02 are consistent; its residual finite-operation omission is explicit below. No new F-number is silently created and no source was edited by this reviewer.
+
+CONSISTENT-DESK resolves only the specified written ambiguity against this version, not professional acceptance or engineering proof. The source package remains DRAFT / UNREVIEWED by named accountable external/domain reviewers. The four base OPEN-EXTERNAL findings F-14/F-24/F-26/F-30, all actual OPEN-ENGINEERING/professional/merchant/field/licence/finance/safety gates, seven prohibition flags and original01-01/02/03 remain open. All actual NC-01–38 are NOT RUN and actual professional/company evidence is NOT RECEIVED. No new public or actual evidence was acquired; public cutoff/access remains 2026-10-04.
+
+| Original finding / historical severity | Exact corrected source sections / commit | Independent semantic conclusion | Current written disposition | Remaining actual evidence / owner |
+|---|---|---|---|---|
+| <a id="rr-f-01"></a>[F-01](#f-01) / historical Medium | df25a3e; [API challenge](../../contracts/drafts/api-behavior.md#identity-challenge-authority), [envelope](../../contracts/drafts/api-behavior.md#proposal-status-and-shared-envelope), [TR authority](../../contracts/drafts/trip-transition-catalogue.md#authority-matrix); SCR/AC/TH-01; DATA-02/09 | Challenge proof/version with explicit session NONE can issue one session; protected original challenge-key recovery does not grant generic account/history reads. Browser preauthentication CSRF context avoids a prior-cookie prerequisite. | CONSISTENT-DESK | NOT RUN / NOT RECEIVED. Identity/security/privacy: approved recovery/session-delivery design, forged/expired/reissued/lost-response/anti-enumeration cases. |
+| <a id="rr-f-02"></a>[F-02](#f-02) / historical High | df25a3e; [TR global rule](../../contracts/drafts/trip-transition-catalogue.md#global-mutation-contract--applies-to-every-tr-row), [finite matrix](../../contracts/drafts/trip-transition-catalogue.md#authority-matrix), [TR-06](../../contracts/drafts/trip-transition-catalogue.md#tr-06)/[OP-06](../../contracts/drafts/api-behavior.md#op-06), [TR-11 funding](../../contracts/drafts/trip-transition-catalogue.md#amendment-funding), [OP-15](../../contracts/drafts/api-behavior.md#op-15) | Historical finance and fee-free failed-auth cleanup are resolved written subissues: current finite worker mandate plus original intent survives human/session/assignment release without new spend/read authority. Residual RR-02-A below: the exhaustive matrix lacks named nonterminal dispatch, amendment-finalization and internal issuance workload grants; do not invent a role-wide bypass. | REVISE-DRAFT | NOT RUN / NOT RECEIVED. Trip/dispatch/API/payment/finance/security leads: reconcile exact operation grants now; future revoked/out-of-scope/stale-intent/workload and race/reconciliation cases. |
+| <a id="rr-f-03"></a>[F-03](#f-03) / historical High | df25a3e; [API snapshot protocol](../../contracts/drafts/api-behavior.md#snapshot-protocol), TR/OP/SCR/AC/TH-25; DATA-03/06/08 | Durable per-owner coverage is registered before a consistent PG cut; independently keyed owner vectors reject older same-owner events, not new payment/safety at equal trip version. Gap/revocation/unavailable coverage requires authorized refetch or declared snapshot-only mode. | CONSISTENT-DESK | NOT RUN / NOT RECEIVED. API/realtime/DB/payment/safety: current grants, per-owner stream registration/cut concurrency and replay-retention/gap/revoke cases; no global Kafka ordering assumption. |
+| <a id="rr-f-04"></a>[F-04](#f-04) / historical High | df25a3e; [TR scheduled handoff](../../contracts/drafts/trip-transition-catalogue.md#scheduled-handoff), [POL v0.2](../../contracts/drafts/city-policy-schema.md#policy-v02-interactions); TR/OP/SCR/AC/TH-20; DATA-08 | One current booking→live-trip mapping across trigger generations, fresh lawful quote/consent and actual passenger claim/payment intent precede authorization/search. Current corporate/service/credit gates and UNKNOWN/reconfirmation prevent a second live trip or inferred no-show. The handoff ambiguity is resolved; downstream search still inherits RR-02-A. | CONSISTENT-DESK | NOT RUN / NOT RECEIVED. Booking/trip/ops/corporate/payment: actual schedule/payment/licence/guarantee terms and duplicate/old-trigger/active-rider/expired-quote/revoked-spender cases. |
+| <a id="rr-f-05"></a>[F-05](#f-05) / historical High | df25a3e; [TR terminal cleanup](../../contracts/drafts/trip-transition-catalogue.md#terminal-cleanup), TR/OP/SCR/AC/TH-06; DATA-03 | Locked NO_DRIVER winner explicitly invalidates only its own offers/reservations/passenger claim; late losing expiry cannot clear committed/newer claims. Terminal quote binding remains immutable; lawful retry needs a new quote. VOID uncertainty is separate. | CONSISTENT-DESK | NOT RUN / NOT RECEIVED. Trip/dispatch/DB/payment: accept-vs-expire, new-booking/late-cleanup and original-hold VOID cases; nonterminal search authority separately RR-02-A. |
+| <a id="rr-f-06"></a>[F-06](#f-06) / historical High | df25a3e; [TR terminal cleanup](../../contracts/drafts/trip-transition-catalogue.md#terminal-cleanup), TR/OP/SCR/AC/TH-19; DATA-03/06 | Explicit approved ABORTED serializes with completion, marks own assignment RELEASED and releases only own trip/passenger/driver/vehicle claims. Independent case and provisional-money HOLD survive release; SOS/heartbeat cannot terminate. | CONSISTENT-DESK | NOT RUN / NOT RECEIVED. Safety/trip/DB/finance/ops: actual staffed safe handling, approved abort intent and abort-vs-complete/late-command/claim/case/fare cases. |
+| <a id="rr-f-07"></a>[F-07](#f-07) / historical Medium | df25a3e; [TR terminal cleanup](../../contracts/drafts/trip-transition-catalogue.md#terminal-cleanup), [API result mapping](../../contracts/drafts/api-behavior.md#wire-state-and-result-mapping), [POL fields](../../contracts/drafts/city-policy-schema.md#policy-v02-interactions); TR/OP/SCR/AC/TH-18 | Lifecycle validity and optional fee entitlement are separate: valid prestart cancellation confirms release with ZERO/REVIEW_PENDING and no debit when quality/notice/policy/funding fails. FEE_EVIDENCE_HOLD cannot keep claims locked; start winner still conflicts. | CONSISTENT-DESK | NOT RUN / NOT RECEIVED. Trip/ops/finance/counsel: approved fee/notice/appeal policy and cancel-arrival/start, missing fee evidence and independent VOID cases. |
+| <a id="rr-f-08"></a>[F-08](#f-08) / historical High | df25a3e; [TR PIN protocol](../../contracts/drafts/trip-transition-catalogue.md#pin-secret-envelope), [privacy lifecycle](../../security/drafts/privacy-data-map.md#privacy-v02-interactions), DATA-05; TR/OP/SCR/AC/TH-10 | Separate purpose-keyed verifier/request MAC with segregated key versions avoids retained raw/unkeyed low-entropy oracle. Durable atomic attempt/rate bounds span keys/actors; consume/start/reissue serialize. Successful original-result lookup needs no consumed-code guess; definite rejected corrected proof is separately bounded. No approved finite limits disables capability. | CONSISTENT-DESK | NOT RUN / NOT RECEIVED. Security/trip/privacy: cryptographic/key/rotation/retention/limit acceptance and actual multi-key guessing, reissue/race, lost result, dump/restore/device cases; no proven cryptography. |
+| <a id="rr-f-09"></a>[F-09](#f-09) / historical Medium | df25a3e; [TR amendment funding](../../contracts/drafts/trip-transition-catalogue.md#amendment-funding), [POL funding fields](../../contracts/drafts/city-policy-schema.md#policy-v02-interactions), DATA-04; TR/OP/SCR/AC/TH-11/13 | Consent alone stays pending; covered/increment/replacement funding or corporate delta reserve must confirm before EFFECTIVE. Stable supersession/allocation plus total capture cap prohibits independent old/new double capture. UNKNOWN queries original operation; late funding after abort cannot activate. Funding ambiguity resolved; asynchronous finalizer authority is RR-02-A. | CONSISTENT-DESK | NOT RUN / NOT RECEIVED. Payment/finance/corporate/trip: actual merchant increment/replacement/MIT/old-hold release/capture terms and timeout/refusal/partial-capture/abort/current-spend races. |
+| <a id="rr-f-10"></a>[F-10](#f-10) / historical Medium | df25a3e; [TR beneficiary precedence](../../contracts/drafts/trip-transition-catalogue.md#beneficiary-precedence), [POL earning fields](../../contracts/drafts/city-policy-schema.md#policy-v02-interactions), DATA-04; TR/OP/SCR/AC/TH-07/14/21 | Assignment candidate eligibility/agreement does not itself earn entitlement. Reviewed earning event/effective agreement selects immutable party/allocation/posting snapshot; only an explicit rule carries assignment-time party. Current access/future transfer cannot rewrite payable; unknown rule holds accounting while lifecycle releases. | CONSISTENT-DESK | NOT RUN / NOT RECEIVED. Fleet/finance/counsel/accountant: actual service-specific earning instant/agreement/transfer/allocation and lawful append-only correction/payout cases. |
+| <a id="rr-f-11"></a>[F-11](#f-11) / historical High | df25a3e; [API browser contract](../../contracts/drafts/api-behavior.md#browser-session-contract), [privacy authority](../../security/drafts/privacy-data-map.md#privacy-v02-interactions); TR/OP/SCR/AC/TH-21/22/23; DATA-02/09 | Secure/HttpOnly cookie, reviewed SameSite plus session/preauth-bound CSRF and approved exact Origin controls include initial login. Rotation/revocation invalidates tabs/socket/cache/idempotent grants/queued human requests/exports/downloads; historical worker obligations use finite grants, not copied cookies. MFA/purpose/audit remain separate. | CONSISTENT-DESK | NOT RUN / NOT RECEIVED. Identity/web/security/privacy: cookie/allowlist/session-window review and forged-site/login, stale tab, rotation/logout, queue/export/object/cache/socket cases. |
+| <a id="rr-f-12"></a>[F-12](#f-12) / historical Medium | df25a3e; [API wire/result mapping](../../contracts/drafts/api-behavior.md#wire-state-and-result-mapping), TR independent machines; OP-25 companion result read; TR/SCR-18; TH interactions | Canonical DRIVER_EN_ROUTE/DRIVER_ARRIVED wire aliases and separate owner/payment-operation fields are explicit. Current variant-authorized original-key result has effect_class/outcome/vector/query reference; NONE rejection, restricted PIN attempt, committed UNKNOWN and confirmed effect are distinguishable. All transition outcome codes have local mappings; NOT_FOUND is not no PSP effect. | CONSISTENT-DESK | NOT RUN / NOT RECEIVED. API/UX/payment/security: accountable schema compatibility review, permitted/denied old-client/result reads, before/after commit loss and original provider-finality cases. |
+
+<a id="rr-02-a"></a>
+### RR-02-A — residual F-02 High / REVISE-DRAFT: finite workload operation coverage is incomplete
+
+Exact source df25a3eb743d3bfc0414e2037b91f7a19469e615: [global TR authority](../../contracts/drafts/trip-transition-catalogue.md#global-mutation-contract--applies-to-every-tr-row) requires every mutation to use exactly one matrix variant. The [finite matrix](../../contracts/drafts/trip-transition-catalogue.md#authority-matrix) enumerates variant / exact rows and allowed operations. Its Trip-terminal workload for TR-06 permits guarded no-driver expiry, not nonterminal search. Yet [TR-06](../../contracts/drafts/trip-transition-catalogue.md#tr-06) and [OP-06](../../contracts/drafts/api-behavior.md#op-06) require Core scheduler REQUESTED→SEARCHING with attempt/deadline, sequential reservation/offer and outbox. Human rows exclude TR-06; booking TR-20 grant permits its exact handoff, not a general search grant. A currently authenticated worker alone is insufficient under the finite allowed-operation contract.
+
+Two linked branches need the same explicit coverage reconciliation: [amendment funding](../../contracts/drafts/trip-transition-catalogue.md#amendment-funding) describes PG activation on asynchronous funding confirmation, but matrix TR-11 is human-only and payment-authorize TR-05 is authorization/query, not an explicit TR-11 EFFECTIVE finalizer. [OP-15](../../contracts/drafts/api-behavior.md#op-15) names internal finance.issue, while TR-15 appears only in human/read rows; no finite receipt-issuance workload operation is named. Manual authorized human variants may remain valid, but they do not authorize an unnamed background worker. This is a written operation-coverage defect, not an observed failed application.
+
+Deterministic expected behavior: an exact versioned dispatch/search grant may start only an eligible owned REQUESTED trip and its matching generation/deadline; it cannot terminate/assign from an arbitrary role, bypass payment/policy/claim fences or reuse another tenant. If amendment activation and issuance are asynchronous, name exact finite finalizer/issuer intent grants, expected trip/amendment/payment/posted-fare versions, scope and audit. Funding confirmation cannot apply stale/aborted/unauthorized-spending amendments or originate a charge; issuer grant cannot change journals, pick an unapproved fiscal issuer or expose private history. Expired/revoked/wrong-operation worker grants stop that effect and leave owned pending resolution, not an unrestricted service-role bypass.
+
+Bounded fix / owner: trip/dispatch/API/payment/finance/security leads reconcile matrix and the three named worker interfaces, either adding those narrowly scoped operations to explicit existing variants or explicitly requiring a current approved human command for a deliberately manual branch. Do not add a new network service/table/provider or infer commercial capabilities. Independently re-review exact row-to-grant coverage after the written change; separately authorized actual revoked/out-of-scope/stale-version/crash/claim/finisher/issuer cases remain NOT RUN. [NC-05](#nc-05), [NC-17](#nc-17) and [NC-22](#nc-22) retain their expected behavior and need these grant variants in future evidence. External issuer/merchant/finance approval remains NOT RECEIVED.
+
+### Interaction challenge and current handoff
+
+We specifically compared challenge/session/workload precedence, human logout versus historical finance, terminal release versus fee/VOID/accounting HOLD, snapshot registration versus PG cut and owner replay, scheduled quote/credit/passenger claim versus live search, PIN MAC versus attempts/reissue/result replay, amendment original/new hold allocation versus late abort, economic-time selection versus current fleet access, cookie login/CSRF/revocation versus finite background work, and row aliases/rejection codes versus committed intent outcome. These comparisons support the scoped dispositions above. RR-02-A exposes an interaction between stronger finite-authority global wording and otherwise coherent worker choreography; it is not concealed by the source owner's twelve correction assertions.
+
+The original NC-01–38 expected-behavior rows are retained without weakening. Their original F-links are historical anchors; current F-01–12 returns above supersede the initial local defect claims. Add the named grant coverage to future NC-05/17/22 execution records without changing current NOT RUN into observed results. New section anchors are navigation, not business IDs; all 152 stable IDs and existing evidence/edge/prohibition obligations remain.
+
+For current provisional 01-03 input, reconcile RR-02-A first under source-owner scope, retain the eleven version-specific desk resolutions and appoint accountable reviewers. Then follow the existing actual-evidence handoff: original01-01/02 genuine findings, applicable professional/company/provider/field/licence/safety/engineering evidence, exact accepted source versions/conflicts and original01-03/M0 decision. No requirement or activation is enabled by this re-review. requirements-completed: []; original checkpoints, Phase1, M0, implementation OPEN; all cities/airports and scheduled/directed corridors DISABLED/HOLD.
+
+### Re-review local checks — observed repository bookkeeping only
+
+On2026-10-05, independent local resolution across the six actual corrected sources plus two review documents passed 1710 Markdown file/anchor references, with errors=[]. Exact stable-ID inventory passed all152 IDs once; auxiliary v0.2 anchors were excluded from that business-ID count. Checks passed twelve current resolution rows, twenty-six current journey returns, six requirements/six decisions/ten edges/seven prohibition flags and all55 transition-row outcome codes present in wire mapping. Every one of the38 original NC IDs, deterministic expected-behavior strings and NOT RUN actual strings matched the original review record unchanged. Source diff from df25a3e is empty; presence/nonempty and whitespace checks passed. These checks do not certify the expected behavior or actual controls. Independent semantic outcome remains eleven scoped written resolutions and residual F-02/RR-02-A; no application/provider/security/field test or professional acceptance occurred.
