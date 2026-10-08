@@ -27,3 +27,5 @@ Thumbs.db
 .terraform/
 *.tfstate
 *.tfstate.*
+
+/.gsd/

@@ -5,7 +5,9 @@
   "response_language": "Georgian",
   "phase_id_convention": "sequential",
   "parallelization": false,
-  "planning": { "commit_docs": false },
+  "planning": {
+    "commit_docs": false
+  },
   "workflow": {
     "research": true,
     "ai_integration_phase": true,
@@ -17,6 +19,7 @@
     "nyquist_validation": true,
     "security_enforcement": true,
     "security_asvs_level": 2,
-    "security_block_on": "high"
+    "security_block_on": "high",
+    "_auto_chain_active": false
   }
 }

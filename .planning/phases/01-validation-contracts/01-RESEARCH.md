@@ -2,7 +2,11 @@
 
 Date: 2026-10-03. Status: desk-research baseline; new field/professional/provider evidence pending.
 
+Current public refresh: [2026-10-04 synthesis](../../../research/PUBLIC-EVIDENCE-UPDATE-2026-10-04.md) and its three market/legal/provider source ledgers. User delegated public source gathering and ordinary decisions to the agent. 01-04 is independent desk work; public retrieval limitations are researched directly, while original actual field/professional/company/sandbox evidence remains separate. Candidate directions: BOG documentation first with TBC comparison, Google coherent maps first, lawful payout scheduling/refund funding independent of split recovery; eligibility and quality remain unvalidated.
+
 ## Inputs and conclusions
+
+Independent preparation planning now reuses this research and the dated public refresh through 01-05/01-06. `01-PATTERNS.md` maps document analogs; `01-CHECK.md` records the independent pre-execution semantic review (0 blockers, 0 warnings, 1 information advisory). All 12 future automated commands have observable failure-direction metadata. The native path probe classifies their compound PowerShell/Node form as `not_applicable`; this is not proof that future artifact checks ran or resolved their paths. Actual execution must record exact command results alongside semantic review. Ten spec-less edge items are retained as documentation backstops or flagged unresolved actual-evidence assumptions; no missing field/professional/provider outcome is inferred.
 
 `research/MARKET-REGULATORY.md` and `SOURCE-REGISTER.md` hold the dated primary-source review. Treat the earlier chat's commission/income/permit figures according to that register, never as newly measured facts. The selected five-city scope requires jurisdiction-specific evidence. `BUSINESS-MODEL.md` defines the formula boundaries and illustrative 15% scenario; it does not establish commercial viability. `TECHNICAL-SPEC.md` and ADRs define correctness and privacy contracts, not working software.
 

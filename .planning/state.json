@@ -1,0 +1,73 @@
+{
+  "contract": "1.0.0",
+  "flavor": "core",
+  "milestone": "v1.0 — Five-city production program",
+  "phases": [
+    {
+      "number": "1",
+      "name": "Business, regulatory and product contracts",
+      "status": "pending"
+    },
+    {
+      "number": "2",
+      "name": "Reproducible platform foundation",
+      "status": "pending"
+    },
+    {
+      "number": "3",
+      "name": "Identity, driver eligibility and city policy",
+      "status": "pending"
+    },
+    {
+      "number": "4",
+      "name": "Addressing, quotes and pricing policy",
+      "status": "pending"
+    },
+    {
+      "number": "5",
+      "name": "Location, dispatch and realtime correctness",
+      "status": "pending"
+    },
+    {
+      "number": "6",
+      "name": "Complete trip experience and mobile apps",
+      "status": "pending"
+    },
+    {
+      "number": "7",
+      "name": "Payments, ledger and settlement",
+      "status": "pending"
+    },
+    {
+      "number": "8",
+      "name": "Arrival proof, safety, support and privacy",
+      "status": "pending"
+    },
+    {
+      "number": "9",
+      "name": "Fleet and corporate products",
+      "status": "pending"
+    },
+    {
+      "number": "10",
+      "name": "Scheduled, airport and intercity service",
+      "status": "pending"
+    },
+    {
+      "number": "11",
+      "name": "Production reliability and security certification",
+      "status": "pending"
+    },
+    {
+      "number": "12",
+      "name": "Five-city operational activation",
+      "status": "pending"
+    }
+  ],
+  "next": {
+    "command": "/gsd:progress --next",
+    "label": "Advance to the next step",
+    "reason": "Phase 01 of 12 · 0% · executing"
+  },
+  "updated_at": "2026-10-04T18:30:35.580Z"
+}

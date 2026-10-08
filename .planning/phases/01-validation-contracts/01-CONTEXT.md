@@ -2,6 +2,10 @@
 
 Gathered: 2026-10-03. Status: brief-derived planning baseline; execution and external evidence not completed.
 
+Steering update 2026-10-04: after Wave 1 preparation the user explicitly delegated current official public research and ordinary planning/process decisions to the agent. Independent 01-04 handles that supplement; public source gathering must not be treated as waiting for the user. It does not substitute for actual interviews, professional opinions, company merchant/operator acceptance or M0. Preserve original reviewed-evidence requirements and separate implementation authorization.
+
+Planning continuation 2026-10-04: the user invoked `$gsd-plan-phase 1` after the proposal to add independent local draft preparation. Add 01-05 → 01-06 using completed 01-04, preserving the original plans and their real evidence gates. Draft screen/state/city/API/privacy/security paths stay under `docs/contracts/drafts/` and `docs/security/drafts/`; local independent review/traceability stays under `docs/reviews/drafts/`. No draft or local plan review substitutes for canonical 01-03 integration or M0. This invocation creates plans, not their deliverables or execution summaries.
+
 <domain>
 ## Phase boundary
 Deliver reviewed business/legal/provider/product contracts for M0. Requirements: BIZ-01, BIZ-02, BIZ-03, BIZ-04, VND-01, PRD-01. Prepare reviewable forms and desk research first; professional opinions, field data, provider terms and budget commitment remain actual future evidence. No app code, live payments, deployment or city activation.

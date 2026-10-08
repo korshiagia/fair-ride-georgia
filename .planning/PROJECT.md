@@ -4,7 +4,9 @@
 
 A complete production-grade ride-hailing platform for Zugdidi, Kutaisi, Batumi, Tbilisi and Rustavi. Driver-friendly transparent economics, reproducible fares, proof of arrival, pickup PIN, human-reviewed safety/disputes, corporate/fleet and scheduled airport/intercity capabilities are in the committed product scope. Passenger Flutter Android/iOS, driver native Kotlin Android and TypeScript/React/Next.js web consoles share documented contracts.
 
-The active repository root is `C:/Projects/fair-ride-georgia` and contains foundation specifications and local project setup only. No application implementation, live infrastructure, vendor contract, field research or launch has been performed.
+The active repository root is `C:/Projects/fair-ride-georgia`. Foundation specifications and local setup are present; Phase 1 research/economics and legal/provider preparation began on 2026-10-04. Original Wave 1 plans have their first preparatory task committed and actual evidence gates open. The user's later instruction delegated current public research/process choices; independent 01-04 completed that scoped supplement (8405700). No full phase or requirement is complete. No application implementation, live infrastructure, vendor contract, actual field collection or launch has been performed.
+
+The user's subsequent `$gsd-plan-phase 1` instruction added independently checked local preparation plans 01-05 and 01-06. They describe six provisional contracts and an independent desk trace/review, with draft-only paths and no actual outcomes. Planning is complete for that bounded lane; the drafts and their execution summaries do not yet exist. Original 01-03 integration, real evidence and M0 remain open. See `.planning/phases/01-validation-contracts/01-CHECK.md` for the pre-execution semantic review and its path-probe limitation.
 
 ## Core Value
 
@@ -33,6 +35,8 @@ None yet. Specifications and desk research are not proof of implemented/operatio
 ## Business Context
 
 Primary users: riders, individual drivers, fleet managers, corporate travel administrators and staffed operators. Initial cities were selected by the user on 2026-10-03. Proposed commission economics use a 15% modeling input, not a validated offer. No subscription at launch. Default activation order Kutaisi→Zugdidi→Batumi→Tbilisi/Rustavi is provisional and changes if liquidity/permissions show a better sequence.
+
+Latest public-research priorities: Tbilisi/Rustavi corridor and Kutaisi ordinary city in parallel, Batumi contrasting seasons and Zugdidi city/periphery. BOG Payment Manager is the first documentation reference with TBC comparison; Google coherent maps is the first research stack, Mapbox conditional. These are candidate/design directions, not merchant eligibility or measured quality. Public source acquisition is agent-owned; actual company/field/professional acceptance remains separate. See research/PUBLIC-EVIDENCE-UPDATE-2026-10-04.md.
 
 Planning baseline: 15 product/engineering roles; contracted legal/finance/security; staffed operations and incident escalation; 12–15 month horizon; 4.95–6.00m GEL illustrative envelope. All staffing/cost/rate inputs need actual quotes and monthly cash-flow modeling. See BUSINESS-MODEL.md, not a spending approval.
 
@@ -69,4 +73,4 @@ Read MASTER-SPEC.md, BUSINESS-MODEL.md, TECHNICAL-SPEC.md, DOMAIN-BOUNDARIES.md,
 
 After each phase, mark requirements complete only with implemented or reviewed evidence, update decision outcomes, record new constraints and review city readiness. At each milestone audit finance/safety/privacy/domain integration and scope. Change a contract through ADR + affected requirement + plan + verification update together. A future user correction overrides this planning assumption and must be propagated across the pack.
 
-Last updated: 2026-10-03.
+Last updated: 2026-10-04.
